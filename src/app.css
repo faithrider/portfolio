@@ -1,0 +1,258 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@tailwind utilities;
+
+:root {
+  --color-brown-dark: #362222;
+  --color-brown-medium: #6B4F3A;
+  --color-cream: #F5F5DC;
+  --color-white: #FFFFFF;
+}
+
+@theme {
+  --color-background: #fdfbf6;
+  --color-surface: #fffdf8;
+  --color-accent: #3a2f28;
+  --color-text: #2a2927;
+  --color-border: #d7d2cb;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Kosugi Maru", system-ui, sans-serif;
+}
+
+.kosugi-maru-regular {
+  font-family: "Kosugi Maru", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.fuzzy-text {
+
+  //filter: blur(0.1px); /* tiny blur to soften edges */
+  //letter-spacing: 1px;
+}
+
+/* Global defaults */
+html, body {
+  @apply bg-background text-text font-sans;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout system */
+.site-layout {
+  @apply flex flex-col min-h-screen bg-background;
+}
+
+.site-header {
+  @apply flex justify-between items-center px-10 py-6 border-b border-border;
+  margin-bottom: 0;
+}
+
+.site-title {
+  @apply text-2xl font-sans tracking-wide text-accent;
+}
+
+.nav-links {
+  @apply flex gap-6 text-lg font-sans;
+}
+
+.nav-links a {
+  @apply hover:underline text-accent;
+}
+
+.site-content {
+  @apply grow max-w-4xl mx-auto p-8;
+  padding-top: 0;
+}
+
+.site-footer {
+  @apply border-t border-border text-center py-6 text-sm text-accent;
+}
+
+/* ---- Typography utilities ---- */
+
+/* General content blocks (for blog posts, text blurbs, etc.) */
+.text-piece {
+  @apply font-sans text-lg leading-relaxed text-text;
+}
+
+/* Headings with automatic serif font */
+.heading {
+  /* Use the sans font everywhere per project preference */
+  @apply font-sans font-bold text-accent tracking-wide;
+}
+
+/* Small muted text */
+.subtext {
+  @apply text-sm text-neutral-600 font-sans;
+}
+
+/* A simple content wrapper that applies nice spacing and typography */
+.article-content {
+  /* Article content uses prose styles but keep sans-serif per preference */
+  @apply prose prose-lg font-sans text-text max-w-none;
+}
+
+img,
+svg,
+figure {
+  @apply mx-auto; /* centers media, not layout */
+}
+
+.overlay{
+  /* Use an embedded SVG noise texture to avoid remote-loading issues (some
+     browsers or ad/privacy settings block cross-site images). This guarantees
+     the grain renders in all environments and remains decorative only. */
+  position: fixed;
+  height: 300%;
+  width: 300%;
+  z-index: 1;
+  pointer-events: none;
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  opacity: 0.16; /* Slightly stronger visibility */
+  animation: animateGrain 10s steps(10) infinite;
+  mix-blend-mode: normal;
+}
+
+/* Further reduce grain animation and adjust opacity */
+@keyframes animateGrain{
+  0%, 100% { transform:translate(0, 0) }
+  10%{transform:translate(-5%,-10%)}
+  20%{transform:translate(-15%,-20%)}
+  30%{transform:translate(-5%,-10%)}
+  40%{transform:translate(-15%,-20%)}
+  50%{transform:translate(-5%,-10%)}
+  60%{transform:translate(-15%,-20%)}
+  70%{transform:translate(-5%,-10%)}
+  80%{transform:translate(-15%,-20%)}
+  90%{transform:translate(-5%,-10%)}
+  100%{transform:translate(-15%,-20%)}
+}
+
+
+.site-section {
+    @apply w-full py-2 px-8 text-left max-w-4xl mx-auto;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.site-section h2 {
+  @apply font-stretch-extra-condensed text-3xl mb-6;
+}
+
+.site-section p {
+  @apply text-lg mb-4;
+}
+
+.site-section--alt {
+    @apply bg-surface border-t border-border;
+    padding-top: 2rem;
+    margin-bottom: 0;
+}
+
+
+
+/* PARALLAX Hero section */
+.hero {
+  @apply relative w-full h-screen overflow-hidden flex items-center justify-center text-center;
+  /* break out of centered content containers (full-bleed) */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 0;
+}
+
+.hero-bg {
+  @apply absolute top-0 left-0 w-full h-full bg-cover bg-center;
+  background-image: url('/src/lib/assets/grayscale-stars.jpg');
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.hero-content {
+  /* Keep the title centered in the hero; don't make this container the
+     positioning context for the subtitle — the subtitle is rendered in a
+     separate sibling element so it can be placed relative to .hero itself. */
+  color: var(--color-white);
+  z-index: 10;
+}
+.hero-subtitle {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.15);
+  color: var(--color-white);
+  padding: 0.35rem 0.8rem;
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+  max-width: 92%;
+  text-align: center;
+  z-index: 20;
+}
+
+.hero-title {
+  @apply font-sans;
+  /* Slightly smaller heading so very long titles fit — responsive clamp */
+  font-size: clamp(2rem, 10vw, 7rem);
+  line-height: 0.9;
+}
+
+/* Fade out the hero as you scroll */
+.hero::after {
+  content: "";
+  @apply absolute bottom-0 left-0 w-full h-1/2;
+  /* Use a subtler bottom gradient so decorative grain is visible through it */
+  background: linear-gradient(to bottom, rgba(0,0,0,0), var(--color-background));
+  z-index: 5;
+  opacity: 0.35;
+}
+
+/* Parallax effect */
+@media (prefers-reduced-motion: no-preference) {
+  /* background-attachment: fixed can cause repainting issues and the
+     hero background to disappear when navigating. We remove it in favor
+     of a CSS-only background (or later JS-based parallax) to ensure the
+     image always renders consistently across navigations. */
+  .hero-bg {
+    /* background-attachment: fixed; removed to avoid rendering glitches */
+  }
+}
+
+/* Make Banner cards full-width and reduce gap for honors/year-in-review */
+.routes-honors-experiences .banner,
+.routes-year-in-review .banner {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.routes-honors-experiences .flex,
+.routes-year-in-review .flex {
+  gap: 0.5rem;
+  padding: 0;
+}
+
+/* Blog caption section below hero */
+.blog-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background: rgba(30,30,30,0.7);
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0.5rem 0 0.5rem 0;
+  margin-bottom: 1.25rem;
+  border-radius: 0 0 12px 12px;
+}
+.blog-caption .caption-date,
+.blog-caption .caption-place {
+  letter-spacing: 0.03em;
+}

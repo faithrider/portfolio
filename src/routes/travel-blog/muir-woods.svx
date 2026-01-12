@@ -1,0 +1,32 @@
+---
+title: "Strolling Muir Woods"
+date: "2024-08-04"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+	import heroImg from '$lib/assets/greek-statue2.jpg';
+</script>
+
+<Hero title="Strolling Muir Woods" image={heroImg}>
+	<p class="subtext">August 5, 2024 — Mill Valley, CA</p>
+</Hero>
+
+<div class="article-content">
+
+Standing under a grove of old growth redwoods really makes you realize how small you are. As someone from the Midwest, I'm very familiar with driving past flat, rolling fields of corn and grazing barn animals. There's not much flatness to be seen in California's Muir Woods National Monument.
+
+The drive up to the entrance consisted of winding up and around hills, narrow streets squeezing cars in opposite lanes to almost hug each other. I still can't believe the hulking SUV we crammed our group into eked around the hairpin curves.
+
+Walking from the car to the trail start, it seemed like we did the entire elevation climb in the car. I craned my neck over to the posted map— 650 feet ascent. So, no, not a flat walk. The loop we decided on was Fern Creek Trails Loop, boasting wooden bridges and an ever present canopy of trees. Seeing as the trees were arguably the selling point of the woods, we didn't feel too bad about missing the ocean view of the longer hike.
+
+We set off in our ascent, climbing over roots and ooh and ahhing at the plant life. The path was mostly made of dirt, packed dry against the dampness of the foliage. The beginning of the hike was beautiful but familiar, in a way. The birds chirping sounded the same as they were back home, and the focus I had on making sure I didn't slip off the edge was reminiscent of any hike I'd done before.
+
+Half the group were speed hikers, and the other half bemoaned missing out on any sights. The first group would zip away, dancing around and having fun as a gathering of friends. The second half, my group, would mosey our way to each vantage point we could find, taking in the views like we'd never been outside before. Periodically they'd stop for us to catch up, both groups quipping at each other's hiking style choice.
+
+Looking out over the valley near the top, rays of sun streamed through trees like a spider weaving its intricate webs. The golden glow reflecting off the deep green of the redwoods gave an otherworldly feel to the quiet trail. The soft breeze caressed my face lovingly, cool air blending with the warm sun.
+
+Loud laughing struck me from my musings. It seemed like we caught up to them. Going back down was much the same, though tripping became a much larger possibility. We'd take turns offering a hand to the person behind us, staying closer together in a chain.
+
+The end of the trail loop brought us to the gift shop, a wooden cabin atop a small hill. It felt like finding an oasis in the desert, a place to rest our tired feet, though I still longed to return to the expansive forest. For the occasion, I bought a mini tea stirring spoon for my little collection, adorned with "Muir Woods" on the handle. Driving away felt like leaving another world behind, one of solitude and fresh air. One day I'll be back to see that ocean view.
+</div>

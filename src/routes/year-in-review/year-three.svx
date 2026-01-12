@@ -1,0 +1,16 @@
+---
+title: "Year 3: Competence Theater"
+date: "2024-05-05"
+heroImage: "/src/lib/assets/greek-statue1.jpg"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+</script>
+
+<Hero title="Year 3: Competence Theater" image=heroImage>
+</Hero>
+
+<div class="article-content">
+Info about the year
+</div>

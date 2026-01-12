@@ -1,0 +1,17 @@
+---
+title: "Travel Writing in Iceland"
+date: "2024-12-21"
+heroImage: "/src/lib/assets/greek-statue1.jpg"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+	import heroImg from '$lib/assets/greek-statue1.jpg';
+</script>
+
+<Hero title="Travel Writing in Iceland" image=heroImage>
+</Hero>
+
+<div class="article-content">
+Info about Travel Writing in Iceland
+</div>

@@ -1,0 +1,42 @@
+---
+title: "The Day, The Night, Santorini"
+date: "2023-04-20"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+	import heroImg from '$lib/assets/greek-statue5.jpg';
+</script>
+
+<Hero title="The Day, The Night, Santorini" image={heroImg}>
+	<p class="subtext">April 20, 2023 — Santorini, Greece</p>
+</Hero>
+
+<div class="article-content">
+
+Ancient civilizations have a way of grounding you. It’s not like the feeling of standing at the edge of the Grand Canyon, but more like becoming intensely aware of the countless footsteps that have traveled this same path long before yours. The Greek island of Santorini, also known as Thera, has no shortage of old history, the most well preserved of which being on the southern side of the island at the ruins of Akrotiri. The morning light streaming through the ceiling windows of Akrotiri's protective structure caught dust motes in its beam, like tiny time travelers suspended between then and now.
+
+My brother murmured something about the impressive engineering of the drainage systems, his voice barely carrying in the vast space. He was right - for a civilization from 1600 BCE, it was incredible how closely the buildings resembled modern structures. The morning quiet of the ruins wrapped around us like a blanket, the steady 65-degree air a stark contrast to the beating sun visible through the windows above. Sometimes we'd round a corner and find ourselves completely alone, our footsteps echoing off walls that once housed a thriving Bronze Age city.
+
+Adjacent to the ruins was the Museum of Prehistoric Thera, which held the items recovered from the volcanic eruption that both destroyed and preserved the town. No human remains were ever found - just the pieces of their daily lives, frozen in ash like a prehistoric photograph. The basement level felt like opening a time capsule. Frozen in time, the museum displayed was the best approximation of what it would be like to walk through an ancient Theran home. The walls lined with half-recovered paintings told stories of life before Hellenistic times, their Minoan influence obvious even to our untrained eyes.
+
+On the main floor, clay artifacts were common, from pots and kitchenware, to sealing tablets. Akrotiri was a trading hub at its zenith, so there were some goods from places like Crete and Turkey, however over 85% of the clay vessels were produced locally. For every clay piece, the wall behind it tended to have more wall painting depicting life on the island.
+
+The van ride to the red beach viewpoint was a quick one, but it felt like crossing into another world entirely. If Akrotiri whispered stories of ancient civilization, the red cliffs shouted tales of geological drama. The rock face looked like someone had taken a giant knife to the hillside, leaving a wound that had oxidized into brilliant crimson over millennia. Iron-rich volcanic rock, our guide had explained, but all I could think was that it looked like Mars had decided to take a vacation in the Mediterranean.
+
+"It’s wild to think this coastline looked just as surreal thousands of years ago," I said to my brother, inching close to the edge of our tall vantage point. We'd opted against the steep climb down to the beach itself, our clothes better suited for ruins than rugged ridges. But even from up here, the contrast between the deep red shore and the blue-green water was enough to make you doubt your eyes.
+
+The steady breeze from the ocean kept the April air comfortable as we took a van ride up to Fira, halfway between the northern and southern tips of the island. Hunger eventually led us inside Lucky's Souvlakis, a hole in the wall that proved yet again that the best food often comes from the smallest places. Three euros bought me what might have been the best pork gyro I'd ever tasted, the tzatziki alone worth writing home about. We ate perched on a wall overlooking another walking path, watching the steady stream of people navigate the twisting alleys of Fira's shopping district.
+
+Once fed, we found ourselves in the adjacent town of Imerovigli, only bit more north than Fira. What were once cave dwellings carved into the caldera walls had been transformed into luxury suites, each with their own pools and patios stacked like a vertical neighborhood. The pathways wound between them like marble ribbons, free of the walls that would normally hem in such narrow streets. Every turn offered another postcard-worthy view of the water. I wondered what life looked like before foreigners needed a place to stay.
+
+The afternoon sun blistered as another van ride wound my brother and I all the way up to Oia. The famous, blue-domed Anastasi Church was first on our agenda – that quintessential Santorini photo spot that shows up on every travel blog and Instagram feed. Yet somehow, finding it felt like a treasure hunt. We wandered down narrow alleys, each twist revealing another stunning view, until we finally found the right vantage point. In April's quieter season, we only had to wait behind a handful of others for our chance at the perfect shot. Sometimes tourist spots are popular simply because they're worth it.
+
+As the day softened towards evening, we found ourselves at Skiza Cafe, drawn in by their outdoor menu display and the promise of rooftop dining. The first floor felt almost claustrophobic, with tables pressed close together and passersby brushing past dining guests. But climbing to the second floor opened up a different world entirely. Behind glass half-walls, with the breeze playing across our table, we settled in for dinner with a view of Therasia, Santorini's smaller sister island, across the flooded caldera waters.
+
+My strapatzada arrived steaming, accompanied by a cappuccino freddo that perfectly matched the warm evening air. My brother got a rum-based drink and waffles, and I snuck a bite or two throughout the meal. Small boats dotted the water below like scattered confetti. Sometimes we'd fall into easy conversation, other times we'd lapse into comfortable silence, both of us drinking in the view. I soaked a piece of bread in olive oil – the leftover oil I would bring home to America to share with my mom, a small taste of this moment preserved in a bottle.
+
+The sun began its descent when we made our way to the Agios Nikolaos Castle area for sunset. Built in the 1400s to combat pirate raids, the castle ruins now served as one of Oia's most famous sunset viewing spots. The castle itself was packed shoulder-to-shoulder with tourists, but my brother and I had other plans. He wandered a bit further down to find his own vantage point, while I claimed a spot on a low wall with an unobstructed view of the horizon.
+
+Watching a sunset while busy with life makes it seem to pass in the blink of an eye. But sitting there, despite hundreds of others nearby, time and space seemed to slow to a crawl. Clouds played hide-and-seek with the sun, but when it broke through, it was brilliant – a perfect sphere of orange and gold casting diamonds across the water. As it dipped below the horizon, it painted the clouds in its own image, leaving behind one of the most vibrant blue hours I'd ever seen. I knew the ancient Therans watched the same sunset, and I wondered what else never changed at all. A fitting farewell to an island that had shown us everything from ancient history to natural wonders in the span of a single day.
+</div>

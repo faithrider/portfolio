@@ -1,0 +1,17 @@
+---
+title: "UC Ethics Center Internship"
+date: "2026-02-05"
+heroImage: "/src/lib/assets/greek-statue1.jpg"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+	import heroImg from '$lib/assets/greek-statue1.jpg';
+</script>
+
+<Hero title="UC Ethics Center Internship" image=heroImage>
+</Hero>
+
+<div class="article-content">
+Info about UC Ethics Center Internship
+</div>

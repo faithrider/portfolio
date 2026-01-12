@@ -1,0 +1,17 @@
+---
+title: "NIS Leadership"
+date: "2025-02-05"
+heroImage: "/src/lib/assets/greek-statue1.jpg"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+	import heroImg from '$lib/assets/greek-statue1.jpg';
+</script>
+
+<Hero title="NIS Leadership" image=heroImage>
+</Hero>
+
+<div class="article-content">
+Info about NIS Leadership
+</div>

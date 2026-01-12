@@ -1,0 +1,17 @@
+---
+title: "Wandering Through Reykjavik"
+date: "2024-12-10"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+	import heroImg from '$lib/assets/greek-statue1.jpg';
+</script>
+
+<Hero title="Wandering Through Reykjavik" image={heroImg}>
+	<p class="subtext">December 10, 2024 — Reykjavik, Iceland</p>
+</Hero>
+
+<div class="article-content">
+This was my first time truly embracing winter in a foreign place — the light, the silence, the strange beauty of Iceland in December.
+</div>

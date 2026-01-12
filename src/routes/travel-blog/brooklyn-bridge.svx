@@ -1,0 +1,35 @@
+---
+title: "Brooklyn Bridge and Manhattan Skyline"
+date: "2024-12-10"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+	import heroImg from '$lib/assets/greek-statue3.jpg';
+</script>
+
+<Hero title="Brooklyn Bridge and Manhattan Skyline" image={heroImg} />
+
+<section class="blog-caption">
+  <span class="caption-date">November 03, 2023</span>
+  <span class="caption-place">New York, NY</span>
+</section>
+
+<div class="article-content">
+
+On a chilly November night in Manhattan outside Dim Sum Chelsea on 23rd and 8th, our group split off to see the city that never sleeps. It was the last night we were in the city for a business trip, and we wanted to make it count. One group returned to the hotel, one went up to see the High Line before it closed. The remaining four of us decided to take advantage of the precious hours we had left and went off to find a subway entrance.
+
+We took the E line down to the 9/11 Memorial, though it was after hours so we stood from afar took it in. For being in the middle of NYC, the lasting quiet was deafening. It felt like we found a nook of the city that slept. We made our way around the perimeter and continued through the Financial District. I'd often look at an old building and wonder if it was famous. More often than not, it was.
+
+Having played the 2018 Spider-Man game, which has you swinging around Manhattan, I felt like I was collecting experiences I had gotten a taste of in the game. Joe's Pizza was one, though the line stretching to three buildings over deterred us from taste testing.
+
+Walking down and around Wall Street gave a peculiar feeling of quiet, too. Outside business hours, logically few people would be there, but seeing such a grand place devoid of people almost made me forget where we were. The quiet normalized the street, in a way. We power posed next to the Fearless Girl, cutting a striking silhouette in the darkness.
+
+At the end of the island, the Brooklyn Bridge was our final sight we didn't want to miss. Although it was already almost an hour before midnight, we decided to cross to make it to Pebble Beach, a classic spot for photos of the bridge. And we thought—why not walk over there? We assumed it wouldn't take more than an hour or so. We took off from Park Row and onto the pedestrian walkway.
+
+Crossing the bridge at night is magical. There's fewer people, and each sight is lit up like stars in the sky. Standing in the middle of the bridge, we took panoramas of the Brooklyn skyline bleeding across the river to Manhattan. We lengthened our trip by half for all the pictures we took.
+
+Winding our way off the bridge in Brooklyn, Dumbo's architecture was brick and brownstone, made to last and made to live in. It felt nothing like the concrete jungle of Manhattan, where old buildings were either kept outdated or demolished for the new construction. Getting to Pebble Beach was like arriving at the summit of a long hike. It was right around midnight, so the lights shimmered off the water back onto the bridge. I spent a long while just sitting on the steps behind the beach, drinking in the sight.
+
+We could have easily taken the subway over, but being able to see another angle of the bridge made walking more than worth it. Our pictures ranged from artistic to silly, partially affected by our exhaustion from nearing the end of a long day. We took the A train back our hotel, and—knowing we had to wake up in a handful of hours—fell asleep before our heads hit the pillow.
+</div>
