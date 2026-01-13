@@ -41,7 +41,7 @@
 
 <section class="site-content routes-honors-experiences">
   <h2 class="heading">Honors & Experiences</h2>
-  <p class="subtext">A collection of awards, recognitions, and notable experiences.</p>
+  <p class="subtext">A collection of my notable honors college experiences.</p>
 
   <div class="flex flex-col">
     {#each posts as post}

@@ -9,7 +9,7 @@ heroImage: "/src/lib/assets/greek-statue1.jpg"
 	import heroImg from '$lib/assets/greek-statue1.jpg';
 </script>
 
-<Hero title="NIS Leadership" image=heroImage>
+<Hero title="NIS Leadership" image={heroImg}>
 </Hero>
 
 <div class="article-content">

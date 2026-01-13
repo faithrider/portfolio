@@ -1,17 +1,23 @@
 ---
 title: "UHP Discover"
 date: "2022-08-05"
-heroImage: "/src/lib/assets/greek-statue1.jpg"
+heroImage: "/src/lib/assets/uhp-discover-cover.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import heroImg from '$lib/assets/greek-statue1.jpg';
+	import heroImg from '$lib/assets/uhp-discover-cover.jpg';
 </script>
 
-<Hero title="UHP Discover" image=heroImage>
+<Hero title="UHP Discover" image={heroImg}>
 </Hero>
 
 <div class="article-content">
-Info about UHP Discover
+
+My first honors experience was participating in the honors college's UHP Discover program, which consisted of doing undergraduate research under a mentor. The program lasted the entire summer, so the number of hours caused it to count for two expereiences. I aided in research regarding British imperialism and the usage of immigration in the 1880s, with a specific focus on Australia, which is shown in the picture provided. The first two months I annotated dozens of physical documents, and flagged topics important to the overall project. The last month I worked on finding online documents. Over the course of the summer, I kept a spreadsheet documenting each material, both online and printed, and kept up to date what each consisted of that was important.
+
+Participating in this project helped me research into the modern implications of racism and slavery/indentured servitude, as well as analyze patterns of whiteness and who applied compared to today. Building on that, I can especially appreciate the varied layers of how the idea of race has evolved I also gained greater archival skills and networking.
+
+In the future, my mentor and I plan on hopefully participating in a conference either domestic or abroad. The skills I gained also can possibly be utilized for a master’s thesis, if I decide to go down that route.
+
 </div>

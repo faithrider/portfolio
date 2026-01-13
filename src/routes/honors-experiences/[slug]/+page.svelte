@@ -63,7 +63,7 @@
   {:else}
     <section class="site-content">
       <h2 class="heading">Post not found</h2>
-      <p class="subtext">We couldn't find that post. Check the filename under <code>src/routes/honors-experiences</code>.</p>
+      <p class="subtext">Sorry, that post doesn't exist. Check the filename under <code>src/routes/honors-experiences</code>.</p>
     </section>
   {/if}
 {/if}
