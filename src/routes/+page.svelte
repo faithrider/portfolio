@@ -1,9 +1,9 @@
 <script lang="ts">
-  // Use the shared Hero component (logic/styling centralized).
+  // Use the shared Hero component
   import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<!-- Single hero instance using the reusable Hero component -->
+<!-- Single hero instance -->
 <Hero title="welcome" />
 
 <!-- Main page content -->
@@ -23,7 +23,7 @@
       Beyond coding, I tend to describe myself as a lifelong learner and a creative. I've extensively played many instruments (alto sax and bassoon! and nowadays guitar and ukulele, among others), and love digital art. If you have a favorite brush on Procreate app on iPad, let me know!
     </p>
     <p>
-        Recently, I've gotten into photography, so all my wallpapers now are pictures I've taken!
+        Recently, I've gotten into photography, so all my wallpapers now are pictures I've taken! I have a collection of some of my favorite shots in the <a href="/photography" style="color: #6B4F3A;">Photography</a> section of this site.
     </p>
   </section>
   

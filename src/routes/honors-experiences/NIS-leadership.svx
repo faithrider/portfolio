@@ -13,5 +13,14 @@ heroImage: "/src/lib/assets/greek-statue1.jpg"
 </Hero>
 
 <div class="article-content">
-Info about NIS Leadership
+
+My fifth honors experience involved multiple leadership roles within the NEXT Innovation Scholars program. This multifaceted experience included a week-long trip to San Francisco, leading a corporate innovation team, and serving as assistant lead for a futures project.
+
+The San Francisco component provided foundational training in futures thinking and foresight methodology. We worked with organizations like Forum for the Future and Jump, learning strategic forecasting techniques that would inform our subsequent projects.
+
+My primary leadership role was serving as student leader for our corporate innovation team, working on a project for KAO's "re/cover" brand—a non-steroid OTC eczema treatment. Over seven weeks during the first half of fall semester, I essentially functioned as the product owner for a team of six other students. This involved timeline management, task delegation, ensuring team members understood their responsibilities, and teaching corporate project methodology to those experiencing their first NIS or corporate project. Balancing my own contributions while guiding others required developing new management skills.
+
+Additionally, I served as assistant lead for our futures project throughout the spring semester, stepping in when workloads became overwhelming and providing additional support where needed.
+
+Through these experiences, I learned to effectively manage people while giving them space to grow independently. Balancing my own workload with teaching and leadership responsibilities taught me valuable skills in delegation, mentorship, and team coordination that will serve me well in future professional and academic contexts.
 </div>

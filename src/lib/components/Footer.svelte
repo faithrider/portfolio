@@ -7,6 +7,19 @@
 </script>
 
 <footer class="site-footer">
+  <style>
+    :global(.dark-mode) .site-footer {
+      background: #18181b;
+      color: #f3f3f3;
+    }
+    :global(.dark-mode) .site-footer a,
+    :global(.dark-mode) .site-footer p {
+      color: #f3f3f3;
+    }
+    :global(.dark-mode) .site-footer img {
+      filter: brightness(0.8) invert(0.9);
+    }
+  </style>
   <div class="flex flex-col items-center gap-2">
     <p>© {year} Faith Rider</p>
     <div class="flex items-center gap-4 mt-2">

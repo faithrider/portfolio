@@ -1,13 +1,13 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { page } from '$app/stores';
+  export let params: { slug: string };
   import type { SvelteComponent } from 'svelte';
 
   let PostComponent: typeof SvelteComponent | null = null;
   let metadata: any = {};
   let loading = true;
 
-  $: slug = $page.params.slug;
+  $: slug = params.slug;
 
   onMount(async () => {
     loading = true;

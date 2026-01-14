@@ -13,5 +13,6 @@ heroImage: "/src/lib/assets/websiteGRAB.PNG"
 </Hero>
 
 <div class="article-content">
+
 Info about Honors Portfolio
 </div>

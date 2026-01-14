@@ -1,10 +1,15 @@
 <script lang="ts">
+  // TypeScript declaration for import.meta.glob
+  // This allows TypeScript to recognize Vite's import.meta.glob function.
+  // You can move this to a global.d.ts file if you prefer.
+  interface ImportMeta {
+    glob: (pattern: string, options?: { eager?: boolean }) => Record<string, any>;
+  }
+
   import Banner from '$lib/components/Banner.svelte';
+  import SectionHeader from '$lib/components/SectionHeader.svelte';
   // Reuse the same set of placeholder images used by travel-blog or leave blank.
-  import statue1 from '$lib/assets/greek-statue1.jpg';
-  import statue2 from '$lib/assets/greek-statue2.jpg';
-  import statue3 from '$lib/assets/greek-statue3.jpg';
-  const images = [statue1, statue2, statue3];
+  const images = ['$lib/assets/greek-statue1.jpg', '$lib/assets/greek-statue2.jpg', '$lib/assets/greek-statue3.jpg'];
 
   // Glob all .svx files in this folder (honors-experiences). Eager so metadata is available.
   const modules = import.meta.glob('./*.svx', { eager: true }) as Record<string, any>;
@@ -40,8 +45,7 @@
 </script>
 
 <section class="site-content routes-honors-experiences">
-  <h2 class="heading">Honors & Experiences</h2>
-  <p class="subtext">A collection of my notable honors college experiences.</p>
+  <SectionHeader title="Honors & Experiences" subtitle="A collection of my notable honors college experiences." />
 
   <div class="flex flex-col">
     {#each posts as post}

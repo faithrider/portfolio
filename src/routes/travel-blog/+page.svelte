@@ -3,6 +3,7 @@
   // We use Vite's import.meta.glob with `eager` so we can access each module's
   // exported frontmatter/metadata at build time and keep the index simple.
   import Banner from '$lib/components/Banner.svelte';
+  import SectionHeader from '$lib/components/SectionHeader.svelte';
   import statue1 from '$lib/assets/greek-statue1.jpg';
   import statue2 from '$lib/assets/greek-statue2.jpg';
   import statue3 from '$lib/assets/greek-statue3.jpg';
@@ -40,8 +41,7 @@
 </script>
 
 <section class="site-content">
-  <h2 class="heading">Travel Blog</h2>
-  <p class="subtext">A growing collection of trip write-ups. Click a banner to read the full post.</p>
+  <SectionHeader title="Travel Blog" subtitle="A growing collection of trip write-ups. Click a banner to read the full post." />
 
   <div class="flex flex-col gap-8">
     {#each posts as post}

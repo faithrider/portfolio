@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { page } from '$app/stores';
+  // Remove import of page store; use `export let data` to receive props from load function.
   import type { SvelteComponent } from 'svelte';
 
   // Component loaded dynamically on mount using the slug param.
@@ -8,7 +8,8 @@
   let metadata: any = {};
   let loading = true;
 
-  $: slug = $page.params.slug;
+  export let params: { slug: string };
+  $: slug = params.slug;
 
   onMount(async () => {
     loading = true;
@@ -67,7 +68,7 @@
   {:else}
     <section class="site-content">
       <h2 class="heading">Post not found</h2>
-      <p class="subtext">We couldn't find that post. If you think this is an error, check the filename under <code>src/routes/travel-blog</code>.</p>
+      <p class="subtext">Sorry, that post doesn't exist. Check the filename under <code>src/routes/travel-blog</code>.</p>
     </section>
   {/if}
 {/if}

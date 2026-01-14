@@ -12,5 +12,11 @@ heroImage: "/src/lib/assets/greek-statue1.jpg"
 </Hero>
 
 <div class="article-content">
-Info about the year
+
+This year was a turning point. It was my first year in the NEXT Innovation Scholars program, and it fundamentally changed how I think about my future after graduation. I had been feeling uncertain about my major. I knew I enjoyed the analytical and technical side of programming, but I also knew I didn’t want to give up working closely with people. That tension mattered to me, and I wasn’t ready to ignore it.
+
+Being part of NIS, and surrounded by high-achieving students who refuse to limit themselves to what their majors are “supposed” to lead to, gave me the confidence to explore beyond expectations. One of the clearest examples of that growth was a fall project where I worked on a seven-person team researching how AI might be used in the future for a client. At the end of the project, we were flown to New York City to present our findings in the client’s Manhattan office.
+
+Having that experience so early in my professional life changed how I viewed my time at UC. I used to think of undergrad as a holding period, a space between childhood and adulthood. This year showed me that I don’t need to wait. I don’t plan to rush toward the finish line, but I also won’t sit back and hope opportunities find me. I’m choosing to seek them out now.
 </div>
+

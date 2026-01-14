@@ -1,17 +1,29 @@
 ---
 title: "Travel Writing in Iceland"
 date: "2024-12-21"
-heroImage: "/src/lib/assets/iceland-cover.jpg"
+heroImage: "/iceland-cover.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import heroImg from '$lib/assets/iceland-cover.jpg';
 </script>
 
-<Hero title="Travel Writing in Iceland" image={heroImg}>
+<Hero title="Travel Writing in Iceland" image="/iceland-cover.jpg">
 </Hero>
 
 <div class="article-content">
-Info about Travel Writing in Iceland
+
+(Find some more photos of my trip in my <a href="/photography" style="color: #6B4F3A;">Photography</a> section!!)
+
+My fourth honors experience was participating in the Travel Writing course's study abroad portion in Iceland. This week-long trip in Winter 2024 combined academic writing skills with cultural immersion. We departed right after finals week on December 13th, arriving early the next morning in Iceland, and returned on December 21st.
+
+The trip included numerous activities that provided rich material for our travel writing. We completed the Golden Circle tour, visited Geysir, relaxed in the Blue Lagoon, and explored Reykjavík. Some of the most memorable experiences included whale watching, trying fermented shark (an acquired taste to say the least), viewing the Sun Voyager sculpture, and witnessing the Northern Lights. The glacier cave tour at Langjökull glacier was particularly fascinating, where we met our guide Ollie, whom we coincidentally bumped into twice later in Reykjavík at a coffee/record store—highlighting, as he put it, "just how small this country is."
+
+Through this experience, I developed crucial skills in attentive observation and descriptive writing. The course taught me various styles of travel writing and when to employ each effectively. I learned to fully immerse myself in the moment, absorbing sensory details and cultural nuances, while also developing the ability to later transform those experiences into compelling narratives. This balance between presence and retrospective articulation is something I hadn't previously focused on developing.
+
+The most meaningful moment of the trip came unexpectedly when our bus driver, Ivar, drove us at nearly 1AM to a better location for viewing the Northern Lights—well beyond his scheduled hours. We had resigned ourselves to missing this spectacular phenomenon, but his kindness gave us an unforgettable experience. Similarly, our tour guide Erla consistently went above and beyond, allowing us extra time at various locations whenever possible.
+
+Though this experience wasn't directly related to my academic pathway, it served valuable purposes for both my personal and professional development. As someone who attends conferences and enjoys creative writing, improving my ability to capture detailed information in the moment and articulate it accurately later will serve me in both academic/business contexts and personal writing endeavors. Additionally, I gained practice in crafting engaging openings and hooks for my writing—an aspect I've typically overlooked, assuming readers are already interested or obligated to continue reading.
+
+In the future, I plan to apply these information gathering and engaging writing techniques to both my academic work and personal projects. The ability to be fully present while mentally noting important details is a skill that transcends disciplines and will benefit me regardless of which career path I ultimately choose. This experience has given me a new appreciation for the craft of writing and its power to preserve and communicate meaningful experiences.
 </div>

@@ -12,5 +12,16 @@ heroImage: "/src/lib/assets/greek-statue1.jpg"
 </Hero>
 
 <div class="article-content">
-Info about the year
+
+This year taught me how to move toward things before I feel fully ready.
+
+At the start of the year, I felt settled. I knew my campus, my major, and the path I thought I was on. That comfort slowly turned into restlessness, and I realized I had reached the edge of what I already knew. Growth meant stepping into unfamiliar spaces and accepting the discomfort that came with it.
+
+That shift showed up most clearly through travel. After not flying until 2023, I spent this year crossing continents: San Francisco for the NIS Sandbox program, Iceland in December, and Yale for a medical hackathon. Each experience pushed me into environments where I had to adapt quickly and trust myself to contribute, even when I felt out of place.
+
+Back home, that same tension showed up academically and professionally. Challenging CS courses tested my limits, while hackathons and projects revealed a growing interest in design, communication, and how technology connects to people. That curiosity led me to take a co-op outside a purely technical role and move to the business side of a tech team at a bank, where I began exploring the intersection of technology, finance, and decision-making.
+
+Mentoring another CS student and taking on leadership roles through NIS helped me see my own growth more clearly and refine what leadership meant to me. I learned how to support others while continuing to learn myself.
+
+Now I’m writing this from New York City, where I’m working on BNY’s digital assets team in a role that once felt out of reach. Looking ahead to my senior year, I want to use this momentum intentionally. I want to try things I didn’t give myself space for before, especially the interests I sidelined when I was focused solely on computer science. I want to explore creatively, take intellectual risks, and say yes to opportunities that don’t fit neatly into a single track. Senior year feels like a rare window: a chance to experiment, to stretch, and to take full advantage of being a college student before the structure tightens again. I plan to use it fully.
 </div>

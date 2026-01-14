@@ -1,13 +1,13 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { page } from '$app/stores';
+  export let params: { slug: string };
   import type { SvelteComponent } from 'svelte';
 
   let PostComponent: typeof SvelteComponent | null = null;
   let metadata: any = {};
   let loading = true;
 
-  $: slug = $page.params.slug;
+  $: slug = params.slug;
 
   onMount(async () => {
     loading = true;
@@ -63,7 +63,7 @@
   {:else}
     <section class="site-content">
       <h2 class="heading">Post not found</h2>
-      <p class="subtext">We couldn't find that post. Check the filename under <code>src/routes/year-in-review</code>.</p>
+      <p class="subtext">Sorry, that post doesn't exist. Check the filename under <code>src/routes/year-in-review</code>.</p>
     </section>
   {/if}
 {/if}

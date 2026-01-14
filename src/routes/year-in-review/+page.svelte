@@ -1,5 +1,6 @@
 <script lang="ts">
   import Banner from '$lib/components/Banner.svelte';
+  import SectionHeader from '$lib/components/SectionHeader.svelte';
   import statue1 from '$lib/assets/greek-statue1.jpg';
   import statue2 from '$lib/assets/greek-statue2.jpg';
   import statue3 from '$lib/assets/greek-statue3.jpg';
@@ -35,8 +36,7 @@
 </script>
 
 <section class="site-content routes-year-in-review">
-  <h2 class="heading">Year in Review</h2>
-  <p class="subtext">Highlights and reflections from the year.</p>
+  <SectionHeader title="Year in Review" subtitle="Reflections from each of my years in university." />
 
   <div class="flex flex-col">
     {#each posts as post}

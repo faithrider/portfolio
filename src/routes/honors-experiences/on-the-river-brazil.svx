@@ -9,9 +9,10 @@ heroImage: "/src/lib/assets/greek-statue1.jpg"
 	import heroImg from '$lib/assets/greek-statue1.jpg';
 </script>
 
-<Hero title="On the River, in Brazil" image={heroImg}>
+<Hero title="On the River, in Brazil (upcoming)" image={heroImg}>
 </Hero>
 
 <div class="article-content">
-Info about On the River, in Brazil
+
+Placeholder for my upcoming Brazil study tour in March 2026!
 </div>

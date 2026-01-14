@@ -12,5 +12,6 @@ heroImage: "/src/lib/assets/greek-statue1.jpg"
 </Hero>
 
 <div class="article-content">
-Info about the year
+
+This is my depiction of, what I believe, was the start of taking on real adult responsibilities. First year, I was living on campus and living the life of a STEM college student. Studying in the library, Friday nights on Sigma Sigma Commons, walking to Calhoun street; Cincinnati wasn't really home, not in the slightest. But come second year, I started living off-campus, I didn't have a meal-plan, and I started my first co-op. Suddenly, I needed to get to know the city a bit more. Where should I pick up my meds? What grocery stores have the best sale this week? How in the world do I pay utilities? This year, I was really made aware of so many aspects of living life on my own. The map says, "HOW TO figure out the start of your life". I think I can speak for everyone when I say I wish that manual was real. I chose to make the scene at night, partly for the striking image is gives, but it also has me by myself. The only person I could ask for help is the bodega employee, but now that I'm on my own, I need to find the courage to go and ask for help.
 </div>

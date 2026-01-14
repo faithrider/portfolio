@@ -8,5 +8,6 @@
     <li><a href="/year-in-review">Year in Review</a></li>
     <li><a href="/travel-blog">Travel Blog</a></li>
     <li><a href="/honors-experiences">Honors</a></li>
+    <li><a href="/photography">Photography</a></li>
   </ul>
 </nav>
