@@ -13,5 +13,5 @@ heroImage: "/cincy-dialogue.png"
 
 <div class="article-content">
 
-Will update with information!
+Will update with information soon!
 </div>
