@@ -25,10 +25,14 @@
     <p>
         Recently, I've gotten into photography, so all my wallpapers now are pictures I've taken! I have a collection of some of my favorite shots in the <a href="/photography" style="color: #6B4F3A;">Photography</a> section of this site.
     </p>
+
+    <img src="/src/lib/assets/faith-selfie-hike.jpg" alt="faith selfie hike" style="width: 100%; max-width: 600px; margin-top: 1rem; border-radius: 8px;" />
   </section>
   
   <section class="site-section site-section--alt">
     <h2>Info on this site</h2>
     <p>My portfolio website is entirely coded by me! You can find the source code on my <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a>. It's been a years long process iterating on design and learning new technologies (currently using SvelteKit).</p>
+    
+    <p> I have more of my work hosted on my <a href="https://devpost.com/faithrider" style="color: #6B4F3A;">Devpost</a> (hackathons), <a href="https://www.linkedin.com/in/faith-rider/" style="color: #6B4F3A;">LinkedIn</a> (professional), and <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a> (other projects). Also linked in the footer!</p>
   </section>
 </section>

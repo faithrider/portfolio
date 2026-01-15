@@ -1,14 +1,14 @@
 ---
 title: "Year 4: The Storm Before the Calm"
 date: "2025-05-05"
-heroImage: "/src/lib/assets/greek-statue1.jpg"
+heroImage: "/coming-soon.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Year 4: The Storm Before the Calm" image=heroImage>
+<Hero title="Year 4: The Storm Before the Calm" image="/coming-soon.jpg">
 </Hero>
 
 <div class="article-content">

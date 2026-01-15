@@ -9,7 +9,7 @@
   import Banner from '$lib/components/Banner.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
   // Reuse the same set of placeholder images used by travel-blog or leave blank.
-  const images = ['$lib/assets/greek-statue1.jpg', '$lib/assets/greek-statue2.jpg', '$lib/assets/greek-statue3.jpg'];
+  const images = ['$lib/assets/coming-soon.jpg'];
 
   // Glob all .svx files in this folder (honors-experiences). Eager so metadata is available.
   const modules = import.meta.glob('./*.svx', { eager: true }) as Record<string, any>;
@@ -38,8 +38,8 @@
   // After sorting, assign images deterministically: prefer frontmatter `heroImage`,
   // otherwise pick a fallback based on the index so ordering is stable.
   type PostEntry = { slug: string; title: string; date?: string; excerpt?: string; image?: string };
-  const posts: PostEntry[] = raw.map((entry, idx) => {
-    const image = entry.heroImage ?? images[idx % images.length];
+  const posts: PostEntry[] = raw.map((entry) => {
+    const image = entry.heroImage ?? images[0];
     return { ...entry, image } as PostEntry;
   });
 </script>

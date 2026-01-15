@@ -29,7 +29,6 @@
   <div class="hero-content">
     <h1 class="hero-title" style="opacity: {opacity};">{title}</h1>
   </div>
-  <!-- Removed subtitle slot: caption now rendered outside Hero below -->
 </section>
 
 <!-- Notes: styling for `.hero`, `.hero-bg` and `.hero-content` comes from global CSS

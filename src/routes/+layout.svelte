@@ -1,7 +1,7 @@
 
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/grayscale-stars.jpg';
+	import favicon from '$lib/assets/overlooking-stars.jpg';
   	import Header from '$lib/components/Header.svelte';
   	import Footer from '$lib/components/Footer.svelte';
 

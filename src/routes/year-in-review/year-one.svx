@@ -1,17 +1,19 @@
 ---
 title: "Year 1: Introductions and Other Disasters"
 date: "2022-05-05"
-heroImage: "/src/lib/assets/greek-statue1.jpg"
+heroImage: "/coming-soon.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Year 1: Introductions and Other Disasters" image={heroImg}>
+<Hero title="Year 1: Introductions and Other Disasters" image="/coming-soon.jpg">
 </Hero>
 
 <div class="article-content">
 
 This is my depiction of graduating high school and separating from everyone I've known for most of my life. The golden graduation cap was so coveted in our childhood, it takes receiving it to realize its only the beginning of the rest of our lives. And even those I interacted with on a daily basis, I haven't seen since. I knew the falling through of fair weather friends was inevitable, but to see that moving across the state caused me to walk a path nearly completely separate from everyone I knew was jarring. The facelessness was a choice I made to show that I am already beginning to forget what made my high school relations so important. The graduation cap is situated above a stack of books with golden bookmarks; though the textbooks are what got me to the degree, there's few details I remember, and I have left most of that knowledge behind me. My freshman year was just this—coping with walking away into the unknown, and finding the dichotomy of how big and small the world is.
+
+<img src="/Year1.png" alt="year 1 drawing" />
 </div>

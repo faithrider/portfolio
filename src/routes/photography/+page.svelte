@@ -29,8 +29,11 @@
   }
 </script>
 
-<section class="site-content routes-photography dark-mode">
-  <SectionHeader title="Photography" subtitle="A collection of moments from my travels and experiences." />
+
+<section class="site-content routes-photography dark-mode" style="padding-top:0;">
+  <div style="padding-top:1.25rem;">
+    <SectionHeader title="Photography" subtitle="A collection of moments from my travels and experiences. Click a photo to see a better view and the story behind it." />
+  </div>
 
   {#each groupPhotos(photos) as { row, columns }, i}
     <div class="photo-row" style="grid-template-columns: repeat({columns}, 1fr);">
@@ -50,13 +53,25 @@
 {/if}
 
 <style>
+  :global(body) {
+    margin: 0;
+    padding: 0;
+    background: #18181b;
+  }
   .dark-mode {
     background: #18181b;
     color: #f3f3f3;
   }
+  .site-content {
+    margin-top: 0;
+    padding-top: 0;
+  }
   .routes-photography {
     max-width: 100%;
     padding: 0;
+    margin-top: 0;
+    min-height: 100vh;
+    padding-bottom: 3rem;
   }
 
   .photo-row {
@@ -64,7 +79,7 @@
     gap: 0.5rem;
     padding: 0 2rem;
     margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2.5rem;
   }
 
   /* Modal Styles */

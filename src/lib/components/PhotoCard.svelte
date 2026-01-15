@@ -7,7 +7,7 @@
 
 <div class="photo-column">
   <div class="photo-card" on:click={() => onClickPhoto(photo)} role="button" tabindex="0" on:keydown={(e) => e.key === 'Enter' && onClickPhoto(photo)}>
-    <img src={photo.image} alt={photo.location} />
+    <img src={photo.imageThumb ?? photo.image} alt={photo.location} loading="lazy" />
     <div class="photo-overlay">
       <div class="photo-info">
         <h3 class="photo-location">{photo.location}</h3>

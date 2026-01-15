@@ -1,14 +1,14 @@
 ---
 title: "Strolling Muir Woods"
-date: "2024-08-04"
+date: "2024-08-05"
+heroImage: "/muir woods sign.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import heroImg from '$lib/assets/greek-statue2.jpg';
 </script>
 
-<Hero title="Strolling Muir Woods" image={heroImg}>
+<Hero title="Strolling Muir Woods" image="/muir woods sign.jpg">
 	<p class="subtext">August 5, 2024 — Mill Valley, CA</p>
 </Hero>
 

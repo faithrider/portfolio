@@ -1,17 +1,25 @@
 ---
 title: "WBLI: Women's Growing in Leadership"
 date: "2024-05-05"
-heroImage: "/src/lib/assets/greek-statue1.jpg"
+heroImage: "/gilPHOTO.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import heroImg from '$lib/assets/gilPHOTO.jpg';
 </script>
 
-<Hero title="WBLI: Women's Growing in Leadership" image={heroImg}>
+<Hero title="WBLI: Women's Growing in Leadership" image="/gilPHOTO.jpg">
 </Hero>
 
 <div class="article-content">
-Info about WBLI: Women's Growing in Leadership
+
+My third experience was a bit different than the others. I was selected to participate in the Warren Bennis Leadership Institute's research program, Women's Growing in Leadership. This was designed to see how giving leadership mentorship to women can help empower them.
+
+This project consisted of three parts. The first was attending the initial retreat WBLI hosted for the program. This was the cornerstone of my learnings and I still refer to the booklet of lessons we were given when I need them. It not only focused on leadership principles, but also how women specifically navigate in the corporate hierarchy.
+
+The second part was the semester long project based upon the retreat. We worked with a mentor who guided my small group of fellow women in designing and implementing a project. Our project revolved around increasing information available to low-income high students, to show them that college can be an option for them if they want. We hosted this information on a website, and we created a presentation so that if any future groups would like to expand upon the idea, we created the framework for it.
+
+The third part was supplementing my learnings with additional book resources. I ended up primarily reading the One Minute Manager by Ken Blanchard and Spencer Johnson. I think about it every single time I give an update to someone—can they read this in one minute? If not, it should have either been broken into pieces, or it necessitates a deeper discussion. I already feel that my skill in concisely explaining my progress is dramatically better than in the Fall. Additionally, I read a bit of Introduction to Leadership by Peter Northouse. The part I read seemed to be a deeper dialogue into "what makes a leader", and how older notions of natural leaders may not be the best way to look at it.
+
+I am extremely grateful for the opportunity to participate in this program, and to be able to make an honors experience out of it. I got more out of the experience than I could have expected, and I am eager to continue putting these learnings into practice. Academically, professionally, and personally, I can see using these learnings. I've noticed this sort of thing is very cyclical—you help others to help yourself, and vice versa. By taking the time to better myself, I am able to turn around and help better others. From here, I want to continue to learn about this topic. I've grown to realize that I really like interacting with and guiding teams, so I want to take advantage of the time I have at UC to continue to foster that interest. I'd also love to participate in programs like this one if I come across anything similar.
 </div>

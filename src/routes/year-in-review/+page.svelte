@@ -1,10 +1,7 @@
 <script lang="ts">
   import Banner from '$lib/components/Banner.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
-  import statue1 from '$lib/assets/greek-statue1.jpg';
-  import statue2 from '$lib/assets/greek-statue2.jpg';
-  import statue3 from '$lib/assets/greek-statue3.jpg';
-  const images = [statue1, statue2, statue3];
+  const images = ['/coming-soon.jpg'];
 
   const modules = import.meta.glob('./*.svx', { eager: true }) as Record<string, any>;
 
@@ -30,7 +27,7 @@
 
   type PostEntry = { slug: string; title: string; date?: string; excerpt?: string; image?: string };
   const posts: PostEntry[] = raw.map((entry, idx) => {
-    const image = entry.heroImage ?? images[idx % images.length];
+    const image = entry.heroImage ?? images[0];
     return { ...entry, image } as PostEntry;
   });
 </script>

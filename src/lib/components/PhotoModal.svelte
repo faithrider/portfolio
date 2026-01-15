@@ -38,11 +38,15 @@
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
     pointer-events: auto;
     gap: 0;
+    word-break: break-word;
+    white-space: normal;
   }
 
   .modal-content.vertical {
     flex-direction: row;
     gap: 0;
+    max-width: 760px;
+    min-width: 340px;
   }
 
   .modal-image {
@@ -57,19 +61,24 @@
     max-height: 90vh;
     width: auto;
     max-width: 60%;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    margin: 0 auto;
   }
 
   .modal-info {
     padding: 2rem;
     color: #333;
+    word-break: break-word;
+    white-space: normal;
   }
 
   .modal-content.vertical .modal-info {
-    padding: 2rem;
+    padding: 1.25rem 1.5rem;
     overflow-y: auto;
-    flex: 1;
+    flex: 1 1 0;
     min-width: 0;
+    word-break: break-word;
+    white-space: normal;
   }
 
   .modal-location {
@@ -77,12 +86,16 @@
     font-weight: 600;
     margin: 0 0 0.5rem 0;
     color: #000;
+    word-break: break-word;
+    white-space: normal;
   }
 
   .modal-date {
     font-size: 1rem;
     color: #666;
     margin: 0 0 1rem 0;
+    word-break: break-word;
+    white-space: normal;
   }
 
   .modal-description {
@@ -90,6 +103,8 @@
     color: #555;
     line-height: 1.6;
     margin: 0;
+    word-break: break-word;
+    white-space: normal;
   }
 
   @media (max-width: 768px) {

@@ -1,17 +1,17 @@
 ---
 title: "Brooklyn Bridge and Manhattan Skyline"
-date: "2024-12-10"
+date: "2023-11-09"
+heroImage: "/brooklyn-bridge.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import heroImg from '$lib/assets/greek-statue3.jpg';
 </script>
 
-<Hero title="Brooklyn Bridge and Manhattan Skyline" image={heroImg} />
+<Hero title="Brooklyn Bridge and Manhattan Skyline" image="/brooklyn-bridge.jpg" />
 
 <section class="blog-caption">
-  <span class="caption-date">November 03, 2023</span>
+  <span class="caption-date">November 09, 2023</span>
   <span class="caption-place">New York, NY</span>
 </section>
 

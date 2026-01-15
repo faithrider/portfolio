@@ -1,3 +1,13 @@
+/* Force dark background for photography page content */
+/* Extend dark background to the entire viewport for the photography page */
+.routes-photography,
+.routes-photography .site-content,
+.routes-photography ~ .site-footer,
+.routes-photography ~ .site-header,
+body.routes-photography,
+html.routes-photography {
+  background: #18181b !important;
+}
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
@@ -169,7 +179,7 @@ figure {
 
 .hero-bg {
   @apply absolute top-0 left-0 w-full h-full bg-cover bg-center;
-  background-image: url('/src/lib/assets/grayscale-stars.jpg');
+  background-image: url('/src/lib/assets/overlooking-stars.jpg');
   transform: translateZ(0);
   will-change: transform;
 }

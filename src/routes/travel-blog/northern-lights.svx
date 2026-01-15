@@ -1,15 +1,15 @@
 ---
 title: "Wandering Through Reykjavik"
-date: "2024-12-10"
+date: "2024-12-19"
+heroImage: "/aurora-faith.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import heroImg from '$lib/assets/greek-statue1.jpg';
 </script>
 
-<Hero title="Wandering Through Reykjavik" image={heroImg}>
-	<p class="subtext">December 10, 2024 — Reykjavik, Iceland</p>
+<Hero title="Wandering Through Reykjavik" image="/aurora-faith.jpg">
+	<p class="subtext">December 19, 2024 — Reykjavik, Iceland</p>
 </Hero>
 
 <div class="article-content">

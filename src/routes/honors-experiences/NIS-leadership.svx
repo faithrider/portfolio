@@ -1,15 +1,14 @@
 ---
 title: "NIS Leadership"
 date: "2025-02-05"
-heroImage: "/src/lib/assets/greek-statue1.jpg"
+heroImage: "/san-fran-bridge-faith.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
-	import heroImg from '$lib/assets/greek-statue1.jpg';
 </script>
 
-<Hero title="NIS Leadership" image={heroImg}>
+<Hero title="NIS Leadership" image="/san-fran-bridge-faith.jpg">
 </Hero>
 
 <div class="article-content">

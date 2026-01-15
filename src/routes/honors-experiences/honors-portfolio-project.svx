@@ -14,5 +14,9 @@ heroImage: "/src/lib/assets/websiteGRAB.PNG"
 
 <div class="article-content">
 
-Info about Honors Portfolio
+My third experience was also my longest. This project originally was slated to take a few months, but as I contniued to take on new responsibilities, this project fell to the wayside. Although I was excited to make progress, the lack of rigid deadlines made it very easy to put off the work for "another day". Most of the work I completed was done in bursts, and I want to continue to improve it. I spent a large amount of my time focusing on the Udemy courses I purchased, and finished off with creating this website itself. This included learning skills I did not necessary include in the website at this time, which included JaaScript/TypeScript which increases the dynamicness of what I can do, and React/Vue which is a better structure system than the simple one I used. Another chunk of time was purely dedicated to figuring out how to set up the custom URL, and various other backend things that allow this site to stand.
+
+My website is not yet finished. I will be adding more information to what is already here, filling out present sections, and making the site generally more versatile and enthralling. I know I am capable of making the website much better, it is just a matter of sitting down and making the time for it. I want to include JavaScript as I learned in my Udemy courses, and make it more dynamic.
+
+In the future, I will be continuing to update my portfolio website, and will be continuing to improve it. I have many ideas I still want to test out. I hope to include more features such as parallax scrolling and animations as I gain more knowledge in web development. I also plan to continue to utilize this website post-graduation as it will serve not only as my honors website, but as my portfolio. As a computer science student, the website itself serves as an opportunity to show what I can accomplish. If I want to showcase what I can do, I need the showcase itself to stand out, too.
 </div>
