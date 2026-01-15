@@ -1,14 +1,14 @@
 ---
 title: "Travel Writing in Iceland"
 date: "2024-12-21"
-heroImage: "/iceland-cover.jpg"
+heroImage: "/iceland-cottage.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Travel Writing in Iceland" image="/iceland-cover.jpg">
+<Hero title="Travel Writing in Iceland" image="/iceland-cottage.jpg">
 </Hero>
 
 <div class="article-content">

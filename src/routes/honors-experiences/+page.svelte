@@ -8,7 +8,6 @@
 
   import Banner from '$lib/components/Banner.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
-  // Reuse the same set of placeholder images used by travel-blog or leave blank.
   const images = ['$lib/assets/coming-soon.jpg'];
 
   // Glob all .svx files in this folder (honors-experiences). Eager so metadata is available.
@@ -45,7 +44,7 @@
 </script>
 
 <section class="site-content routes-honors-experiences">
-  <SectionHeader title="Honors & Experiences" subtitle="A collection of my notable honors college experiences." />
+  <SectionHeader title="Honors & Experiences" subtitle="My notable college experiences, through my Honors Program." />
 
   <div class="flex flex-col">
     {#each posts as post}

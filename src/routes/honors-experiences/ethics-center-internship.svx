@@ -1,17 +1,28 @@
 ---
 title: "UC Ethics Center Internship"
 date: "2025-12-05"
-heroImage: "/cincy-dialogue.png"
+heroImage: "/ethicscenter-tables.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="UC Ethics Center Internship" image="/cincy-dialogue.png">
+<Hero title="UC Ethics Center Internship" image="/ethicscenter-tables.jpg">
 </Hero>
 
 <div class="article-content">
 
-Will update with information soon!
+During the fall semester, I worked as an intern at our university’s Ethics Center in the Digital Futures building, beginning in late October and continuing through the end of the term. My role combined office-based work with community engagement, as I often accompanied my supervisor, Christina, to local middle and high schools to facilitate ethics discussions. In the office, my primary responsibility was writing a Cincy Dialogue piece, a one-page exploration of an ethical question written to be accessible and relevant to children. I developed the question, conducted research, created two distinct perspectives, and designed the final layout using Canva. The dialogue I completed and that has since been posted explored the question, “Should museums be free for everyone?” I also contributed to preparation materials for Ethics Bowl events and began research on a second dialogue that remains in progress. While much of my work was independent, it was consistently guided by feedback from my supervisor.
+
+What stood out to me most was how meaningful it felt to watch students rethink how they approach ethical questions. Many students are used to seeing issues as black and white, where someone is right and someone is wrong. In these discussions, the goal was not to tell them what to think, but to help them see multiple sides of an issue and decide for themselves which values mattered most to them. Watching students realize that ethical discussion is not about winning an argument, but about weighing which pros outweigh which cons, was genuinely rewarding. I also noticed a difference between age groups. With middle school students, much of the work involved teaching them how to debate rather than argue and introducing the idea that disagreement does not have to turn into conflict. High school students were often ready to engage more directly with the deeper questions and implications. Seeing these shifts happen, sometimes within a single conversation, was one of the most impactful parts of the semester.
+
+This experience also changed the way I think about ethics more broadly. Ethics is often treated as something abstract, academic, or reserved for philosophy classrooms, but this internship reinforced for me that ethics is for everyone, whether or not they consciously think about it that way. Everyday choices, such as stopping at a red light even when no cars are coming, choosing not to shoplift, or following through on plans made with a friend, are all ethical conclusions. People live by an ethical code every day without labeling it as such. By slowing down and intentionally talking through these kinds of decisions, students began to understand why they believed what they did. That understanding did not always change their minds, but it did open them up to hearing and respecting other viewpoints, even when those viewpoints were very different from their own.
+
+This internship also pushed me into a role I was still growing into. I am fairly comfortable explaining ideas at different levels of understanding, but I have usually done so as a helper rather than a facilitator. In this setting, I was responsible for guiding discussions, asking purposeful questions, and helping students reach their own conclusions. Doing this with middle and high school students added an extra layer of challenge. I had to learn how to speak with authority while remaining approachable and avoid talking down to them. Compared to learning ethics in a classroom, where the focus is often on individual philosophical reasoning, this role required me to deeply understand why people hold the views they do, including perspectives I did not personally agree with. My willingness to jump in, even when I did not feel fully confident, played a significant role in developing these facilitation skills.
+
+Although this experience does not directly connect to my major in computer science, it reinforced how transferable these skills are. Facilitating discussion, helping others learn how to think for themselves, and communicating complex ideas clearly are valuable in any field. While this internship has not changed my career trajectory, it has strengthened my desire to work with people and remain involved in teaching and mentoring roles. Since this reflection captures only the first half of my time at the Ethics Center, I see it as a work in progress. As I continue into a second semester, I hope to further develop these skills and deepen my ability to help others engage thoughtfully with ethical questions.
+
+(Below is my piece! More like this by my fellow interns can be found <a href="https://www.cincyethics.org/cincy-dialogue/" style="color: #6B4F3A;">here</a>.)
+<img src="/cincy-dialogue.png" alt="My cincy dialogue" />
 </div>
