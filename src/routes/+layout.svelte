@@ -1,7 +1,6 @@
 
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/overlooking-stars.jpg';
   	import Header from '$lib/components/Header.svelte';
   	import Footer from '$lib/components/Footer.svelte';
 
@@ -9,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href="/iceland-blacksandbeach2.jpg" />
 	<title>faith rider</title>
 </svelte:head>
 
