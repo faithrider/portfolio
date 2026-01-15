@@ -13,5 +13,6 @@ heroImage: "/aurora-faith.jpg"
 </Hero>
 
 <div class="article-content">
-This was my first time truly embracing winter in a foreign place — the light, the silence, the strange beauty of Iceland in December.
+
+Placeholder, coming soon!!
 </div>
