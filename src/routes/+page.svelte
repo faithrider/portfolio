@@ -26,7 +26,7 @@
         Recently, I've gotten into photography, so all my wallpapers now are pictures I've taken! I have a collection of some of my favorite shots in the <a href="/photography" style="color: #6B4F3A;">Photography</a> section of this site.
     </p>
 
-    <img src="/src/lib/assets/faith-selfie-hike.jpg" alt="faith selfie hike" style="width: 100%; max-width: 600px; margin-top: 1rem; border-radius: 8px;" />
+    <img src="/faith-selfie-hike.jpg" alt="faith selfie hike" style="width: 100%; max-width: 600px; margin-top: 1rem; border-radius: 8px;" />
   </section>
   
   <section class="site-section site-section--alt">
