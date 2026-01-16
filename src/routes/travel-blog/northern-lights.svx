@@ -12,6 +12,11 @@ heroImage: "/aurora-faith.jpg"
 	<p class="subtext">December 19, 2024 — Reykjavik, Iceland</p>
 </Hero>
 
+<section class="blog-caption">
+  <span class="caption-date">December 19, 2024</span>
+  <span class="caption-place">Reykjavik, Iceland</span>
+</section>
+
 <div class="article-content">
 
 Placeholder, coming soon!!

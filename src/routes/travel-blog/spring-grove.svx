@@ -12,6 +12,11 @@ heroImage: "/spring-grove.jpg"
 	<p class="subtext">September 8, 2024 — Cincinnati, OH</p>
 </Hero>
 
+<section class="blog-caption">
+  <span class="caption-date">September 08, 2024</span>
+  <span class="caption-place">Cincinnati, OH</span>
+</section>
+
 <div class="article-content">
 
 Landscapes can sometimes hold memories the way amber preserves an ancient insect—perfectly, timelessly. Spring Grove Cemetery is one such place—a 733-acre canvas where history, architecture, and human emotion intertwine like the roots of its century-old trees.

@@ -12,6 +12,11 @@ heroImage: "/muir woods sign.jpg"
 	<p class="subtext">August 5, 2024 — Mill Valley, CA</p>
 </Hero>
 
+<section class="blog-caption">
+  <span class="caption-date">August 05, 2024</span>
+  <span class="caption-place">New York, NY</span>
+</section>
+
 <div class="article-content">
 
 Standing under a grove of old growth redwoods really makes you realize how small you are. As someone from the Midwest, I'm very familiar with driving past flat, rolling fields of corn and grazing barn animals. There's not much flatness to be seen in California's Muir Woods National Monument.

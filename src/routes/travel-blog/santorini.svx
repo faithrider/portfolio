@@ -12,6 +12,11 @@ heroImage: "/santorini-sunset.jpg"
 	<p class="subtext">April 21, 2023 — Santorini, Greece</p>
 </Hero>
 
+<section class="blog-caption">
+  <span class="caption-date">April 21, 2023</span>
+  <span class="caption-place">Santorini, Greece</span>
+</section>
+
 <div class="article-content">
 
 Ancient civilizations have a way of grounding you. It’s not like the feeling of standing at the edge of the Grand Canyon, but more like becoming intensely aware of the countless footsteps that have traveled this same path long before yours. The Greek island of Santorini, also known as Thera, has no shortage of old history, the most well preserved of which being on the southern side of the island at the ruins of Akrotiri. The morning light streaming through the ceiling windows of Akrotiri's protective structure caught dust motes in its beam, like tiny time travelers suspended between then and now.
