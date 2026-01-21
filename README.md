@@ -1,38 +1,11 @@
-# sv
+# Portfolio Svelte
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is the code for my personal portfolio website built with [Svelte](https://svelte.dev/).
 
-## Creating a project
+## Sections of the site
 
-If you're seeing this, you've probably already done this step. Congrats!
+I have three major components of my [website](https://www.faithmrider.com/), related to the reasons you may be looking:
 
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- *Honors Portfolio*, which includes the [Year in Review](https://www.faithmrider.com/year-in-review), [Honors Experiences](https://www.faithmrider.com/honors-experiences), and [Travel Blog](https://www.faithmrider.com/travel-blog) sections. These pieces are anything related to my experience in UC's Honors program.
+- *General Portfolio*, currently consisting of the [Projects](https://www.faithmrider.com/projects) section. These include both my CS specific projects, and also any other noteworthy projects I've worked on/been a part of.
+- *Other*, currently consisting of my [Photography](https://www.faithmrider.com/photography) section. Generally speaking, this component is a catch-all for anything not related to academics or professional interests. So anything that is a personal hobby or passion of mine that I wish to share!
