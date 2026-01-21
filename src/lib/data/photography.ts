@@ -44,5 +44,7 @@ export const photos: Photo[] = [
   //{ id: '18', image: '/nyc-pigeon.jpg', imageThumb: '/thumbnails/nyc-pigeon-thumb.jpg', date: 'June 25, 2025', location: 'Manhattan, NY', description: 'In City Hall Park, I saw this pigeon nearly every day. Their little ankle tag helped me identify them, but they were the only lighter brown one that stuck around there.' },
   { id: '18', image: '/nyc-roosevelt-gondola.jpg', imageThumb: '/thumbnails/nyc-roosevelt-gondola-thumb.jpg', date: 'May 29, 2025', location: 'Manhattan, NY', description: 'Sunset on the Roosevelt Island Tramway, seen from the island itself.' },
   //{ id: '14', image: '/aandsuc.jpg', imageThumb: '/thumbnails/aandsuc-thumb.jpg', date: 'November 4, 2025', location: 'Cincinnati, OH', description: 'UC\'s Arts and Sciences Building, on my way to class.' },
+  { id: '21', image: '/nyc-moulin-rouge.jpg', imageThumb: '/thumbnails/nyc-moulin-rouge-thumb.jpg', date: 'June 28, 2025', location: 'Manhattan, NY', description: 'Watching Moulin Rouge at the Al Hirschfeld Theatre, from my seat in the third row I got from a ticket lottery (lighting is unedited!).' },
+  { id: '22', image: '/nyc-building-after-bridge.jpg', imageThumb: '/thumbnails/nyc-building-after-bridge-thumb.jpg', date: 'July 19, 2025', location: 'Manhattan, NY', description: '8 Spruce Street, the tallest residental building in the Western Hemisphere at the time of building in 2011, as seen after finishing a walk with my brother across the Brooklyn Bridge.' },
   
 ];
