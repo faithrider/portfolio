@@ -1,3 +1,4 @@
+  // Year in Review index page. Collects and displays .svx posts in this folder as banners.
 <script lang="ts">
   import Banner from '$lib/components/Banner.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
@@ -19,7 +20,7 @@
     return { slug, title, date, excerpt, heroImage } as RawEntry;
   });
 
-  // Sort oldest-first (chronological ascending)
+  // Sort posts by date (oldest first), fallback to title if missing.
   raw.sort((a, b) => {
     if (a.date && b.date) return new Date(a.date).getTime() - new Date(b.date).getTime();
     return a.title.localeCompare(b.title);
@@ -46,4 +47,4 @@
     {/each}
   </div>
 </section>
-<!-- End of year-in-review index. Add cards or additional sections below if needed, but ensure a single top-level <script> block remains. -->
+<!-- End of year-in-review index. -->

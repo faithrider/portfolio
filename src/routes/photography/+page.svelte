@@ -1,3 +1,4 @@
+  // Photography gallery page. Displays photos in grouped rows and handles modal view for details.
 <script lang="ts">
   import PhotoCard from '$lib/components/PhotoCard.svelte';
   import PhotoModal from '$lib/components/PhotoModal.svelte';
@@ -14,7 +15,7 @@
     selectedPhoto = null;
   }
 
-  // Helper to group photos into alternating rows of 3 and 4
+  // Group photos into alternating rows of 3 and 4 for layout.
   function groupPhotos(photos: Photo[]) {
     const result: { row: Photo[]; columns: number }[] = [];
     let i = 0;

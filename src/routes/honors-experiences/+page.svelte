@@ -2,6 +2,7 @@
   // TypeScript declaration for import.meta.glob
   // This allows TypeScript to recognize Vite's import.meta.glob function.
   // You can move this to a global.d.ts file if you prefer.
+  // Index page for honors experiences. Collects and sorts .svx posts in this folder for display.
   interface ImportMeta {
     glob: (pattern: string, options?: { eager?: boolean }) => Record<string, any>;
   }
@@ -10,12 +11,12 @@
   import SectionHeader from '$lib/components/SectionHeader.svelte';
   const images = ['$lib/assets/coming-soon.jpg'];
 
-  // Glob all .svx files in this folder (honors-experiences). Eager so metadata is available.
+  // Gather all .svx posts in this folder.
   const modules = import.meta.glob('./*.svx', { eager: true }) as Record<string, any>;
 
   type RawEntry = { slug: string; title: string; date?: string; excerpt?: string; heroImage?: string };
 
-  // First, collect raw entries (preserve metadata from each module)
+  // Collect metadata from each post for sorting and display.
   const raw: RawEntry[] = Object.entries(modules).map(([path, mod], i) => {
     const file = path.split('/').pop();
     const filename = file?.replace('.svx', '') || `post-${i}`;
@@ -28,14 +29,13 @@
     return { slug, title, date, excerpt, heroImage } as RawEntry;
   });
 
-  // Sort oldest-first (chronological ascending). If dates are missing, fall back to title.
+  // Sort posts by date (oldest first), fallback to title if missing.
   raw.sort((a, b) => {
     if (a.date && b.date) return new Date(a.date).getTime() - new Date(b.date).getTime();
     return a.title.localeCompare(b.title);
   });
 
-  // After sorting, assign images deterministically: prefer frontmatter `heroImage`,
-  // otherwise pick a fallback based on the index so ordering is stable.
+  // Assign images: prefer frontmatter heroImage, fallback to default if missing.
   type PostEntry = { slug: string; title: string; date?: string; excerpt?: string; image?: string };
   const posts: PostEntry[] = raw.map((entry) => {
     const image = entry.heroImage ?? images[0];

@@ -1,11 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  /**
-   * Simple Hero component with built-in fade-on-scroll behavior.
-   * Props:
-   * - title: main heading text
-   * The component handles its own scroll listener and cleans up on destroy.
-   */
+  // Hero component with fade-on-scroll effect. Displays a title and optional background image.
   export let title: string = '';
   let opacity = 1;
   // Optional background image for the hero. If empty, fallback to the default in CSS.
@@ -23,7 +18,7 @@
   });
 </script>
 
-<!-- Reusable hero layout; place optional children inside the content area -->
+<!-- Main hero layout. Children can be placed inside the content area if needed. -->
 <section class="hero">
   <div class="hero-bg" style="opacity: {opacity}; background-image: {image ? `url('${image}')` : ''};"></div>
   <div class="hero-content">
@@ -31,5 +26,4 @@
   </div>
 </section>
 
-<!-- Notes: styling for `.hero`, `.hero-bg` and `.hero-content` comes from global CSS
-     (src/app.css). This keeps the component lean and styling centralized. -->
+<!-- Styling for .hero, .hero-bg, and .hero-content is handled in global CSS (src/app.css). -->
