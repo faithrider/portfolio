@@ -1,4 +1,4 @@
-  // Photography gallery page. Displays photos in grouped rows and handles modal view for details.
+<!-- Photography gallery page. Displays photos in grouped rows and handles modal view for details. -->
 <script lang="ts">
   import PhotoCard from '$lib/components/PhotoCard.svelte';
   import PhotoModal from '$lib/components/PhotoModal.svelte';
