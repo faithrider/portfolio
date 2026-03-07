@@ -83,12 +83,6 @@ html.routes-photography {
 }
 
 
-.fuzzy-text {
-
-  //filter: blur(0.1px); /* tiny blur to soften edges */
-  //letter-spacing: 1px;
-}
-
 /* Global defaults */
 html, body {
   @apply bg-background text-text font-sans;
