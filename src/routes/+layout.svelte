@@ -18,8 +18,6 @@
 	<main class="site-main">
 		{@render children?.()} <!-- Page-specific content goes here -->
 	</main>
-	<!-- Grain effect should be above ContactSectionBanner -->
-	<div class="grain-effect"></div>
 	<ContactSectionBanner />
 	<Footer />
 <style>
@@ -28,7 +26,7 @@
 		width: 100vw;
 		height: 100px;
 		background: url('/grain.png') repeat center center;
-		z-index: 2;
+		z-index: 100000;
 		pointer-events: none;
 	}
 </style>

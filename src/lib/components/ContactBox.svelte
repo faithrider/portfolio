@@ -67,7 +67,7 @@
     color: #f3f3f3;
     border-radius: 1rem;
     padding: 2rem 2.5rem 2rem 2.5rem;
-    box-shadow: 0 2px 16px 0 #0002;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.333);
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
