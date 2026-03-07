@@ -20,6 +20,8 @@
 		"@tailwindcss/forms": "^0.5.10",
 		"@tailwindcss/typography": "^0.5.18",
 		"@tailwindcss/vite": "^4.1.13",
+		"@types/node": "^25.3.5",
+		"cross-env": "^10.1.0",
 		"mdsvex": "^0.12.6",
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
@@ -30,6 +32,7 @@
 		"vite": "^7.1.7"
 	},
 	"dependencies": {
-		"image-size": "^2.0.2"
+		"image-size": "^2.0.2",
+		"resend": "^6.9.3"
 	}
 }

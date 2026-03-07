@@ -9,6 +9,7 @@
 
   import Banner from '$lib/components/Banner.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
+  import ContactBox from '$lib/components/ContactBox.svelte';
   const images = ['$lib/assets/coming-soon.jpg'];
 
   // Gather all .svx posts in this folder.
@@ -56,5 +57,16 @@
       />
     {/each}
   </div>
-</section>
+  </section>
+  <div class="contact-section">
+    <ContactBox />
+  </div>
+<style>
+  .contact-section {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+</style>
 <!-- End of honors-experiences index. Add cards or additional sections below if needed, but ensure a single top-level <script> block remains. -->

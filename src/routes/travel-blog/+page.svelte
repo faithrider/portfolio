@@ -7,6 +7,7 @@
   import statue3 from '$lib/assets/greek-statue3.jpg';
   import statue4 from '$lib/assets/greek-statue4.jpg';
   import statue5 from '$lib/assets/greek-statue5.jpg';
+  import ContactBox from '$lib/components/ContactBox.svelte';
 
   const images = [statue1, statue2, statue3, statue4, statue5];
 
@@ -47,4 +48,15 @@
       />
     {/each}
   </div>
-</section>
+  </section>
+  <div class="contact-section">
+    <ContactBox />
+  </div>
+<style>
+  .contact-section {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+</style>

@@ -4,8 +4,13 @@
   import PhotoModal from '$lib/components/PhotoModal.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
   import { photos, type Photo } from '$lib/data/photography';
+  import ContactBox from '$lib/components/ContactBox.svelte';
 
   let selectedPhoto: Photo | null = null;
+  let selectedTrip: string = 'All';
+
+  // Get unique trip names from photos
+  const tripOptions = ['All', ...Array.from(new Set(photos.map((p) => p.trip)))];
 
   function openModal(photo: Photo) {
     selectedPhoto = photo;
@@ -28,6 +33,9 @@
     }
     return result;
   }
+
+  // Filter photos by selected trip
+  $: filteredPhotos = selectedTrip === 'All' ? photos : photos.filter((p) => p.trip === selectedTrip);
 </script>
 
 
@@ -36,14 +44,33 @@
     <SectionHeader title="Photography" subtitle="A collection of moments from my travels and experiences. Click a photo to see a better view and the story behind it." />
   </div>
 
-  {#each groupPhotos(photos) as { row, columns }, i}
-    <div class="photo-row" style="grid-template-columns: repeat({columns}, 1fr);">
-      {#each row as photo (photo.id)}
-        <PhotoCard {photo} onClickPhoto={openModal} />
-      {/each}
+  <div class="trip-filter-outer">
+    <div class="trip-filter-container">
+      <label for="trip-filter" class="trip-filter-label">Sort by place/trip:</label>
+      <select id="trip-filter" bind:value={selectedTrip} class="trip-filter-select">
+        {#each tripOptions as trip}
+          <option value={trip}>{trip}</option>
+        {/each}
+      </select>
     </div>
-  {/each}
-</section>
+  </div>
+
+  {#if filteredPhotos.length === 0}
+    <div class="no-photos">No photos currently available for this trip.</div>
+  {:else}
+    {#each groupPhotos(filteredPhotos) as { row, columns }, i}
+      <div class="photo-row" style="grid-template-columns: repeat({columns}, 1fr);">
+        {#each row as photo (photo.id)}
+          <PhotoCard {photo} onClickPhoto={openModal} />
+        {/each}
+      </div>
+    {/each}
+  {/if}
+  </section>
+
+  <div class="contact-section">
+    <ContactBox />
+  </div>
 
 {#if selectedPhoto}
   <div class="modal-backdrop" on:click={closeModal} on:keydown={(e) => e.key === 'Escape' && closeModal()} role="presentation">
@@ -75,6 +102,45 @@
     padding-bottom: 3rem;
   }
 
+  .trip-filter-outer {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+  .trip-filter-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #23232b;
+    border: 1.5px solid #444;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 0.75rem 1.5rem;
+    min-width: 260px;
+  }
+  .trip-filter-label {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .trip-filter-select {
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    background: #23232b;
+    color: #f3f3f3;
+    outline: none;
+    transition: border 0.2s;
+  }
+  .trip-filter-select:focus {
+    border: 1.5px solid #888;
+  }
+  .no-photos {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    color: #aaa;
+  }
   .photo-row {
     display: grid;
     gap: 0.5rem;
@@ -122,15 +188,20 @@
     transform: rotate(90deg);
   }
 
-  @media (max-width: 768px) {
+  .contact-section {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
 
+  @media (max-width: 768px) {
     .modal-backdrop {
       padding: 1rem;
     }
   }
 
   @media (max-width: 480px) {
-
     .modal-backdrop {
       padding: 1rem;
     }

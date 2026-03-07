@@ -1,6 +1,7 @@
 <script lang="ts">
   // Use the shared Hero component
   import Hero from '$lib/components/Hero.svelte';
+  import ContactBox from '$lib/components/ContactBox.svelte';
 </script>
 
 <!-- Single hero instance -->
@@ -35,4 +36,17 @@
     
     <p> I have more of my work hosted on my <a href="https://devpost.com/faithrider" style="color: #6B4F3A;">Devpost</a> (hackathons), <a href="https://www.linkedin.com/in/faith-rider/" style="color: #6B4F3A;">LinkedIn</a> (professional), and <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a> (other projects). Also linked in the footer!</p>
   </section>
+
 </section>
+<div class="contact-section">
+  <ContactBox />
+</div>
+<style>
+  .contact-section {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+</style>
+

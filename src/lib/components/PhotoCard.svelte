@@ -13,6 +13,7 @@
         <h3 class="photo-location">{photo.location}</h3>
         <p class="photo-date">{photo.date}</p>
         <p class="photo-description">{photo.description}</p>
+        <p class="photo-device">Taken on: {photo.device}</p>
       </div>
     </div>
   </div>
@@ -95,6 +96,13 @@
     color: #e8e8e8;
     line-height: 1.5;
     margin: 0;
+  }
+
+  .photo-device {
+    font-size: 0.85rem;
+    color: #b0b0b0;
+    margin-top: 0.5rem;
+    font-style: italic;
   }
 
   @media (max-width: 768px) {
