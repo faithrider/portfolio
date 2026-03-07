@@ -1,8 +1,9 @@
 
 <script lang="ts">
 	import '../app.css';
-  	import Header from '$lib/components/Header.svelte';
-  	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import ContactSectionBanner from '$lib/components/ContactSectionBanner.svelte';
 
 	let { children } = $props();
 </script>
@@ -13,9 +14,22 @@
 </svelte:head>
 
 <div class="site-layout">
-  <Header />
-  <main class="site-main">
-	{@render children?.()} <!-- Page-specific content goes here -->
-  </main>
-  <Footer />
+	<Header />
+	<main class="site-main">
+		{@render children?.()} <!-- Page-specific content goes here -->
+	</main>
+	<!-- Grain effect should be above ContactSectionBanner -->
+	<div class="grain-effect"></div>
+	<ContactSectionBanner />
+	<Footer />
+<style>
+	.grain-effect {
+		position: relative;
+		width: 100vw;
+		height: 100px;
+		background: url('/grain.png') repeat center center;
+		z-index: 2;
+		pointer-events: none;
+	}
+</style>
 </div>

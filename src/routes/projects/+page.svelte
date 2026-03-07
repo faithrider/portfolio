@@ -11,14 +11,4 @@
   <!-- Example project card; update or add more as needed. -->
   <Card title="WIP Project" excerpt="will update" href="/projects/example" />
   </section>
-  <div class="contact-section">
-    <ContactBox />
-  </div>
-<style>
-  .contact-section {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    display: flex;
-    justify-content: center;
-  }
-</style>
+  <!-- ContactBox now handled in layout -->

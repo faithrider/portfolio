@@ -12,10 +12,10 @@
   <section class="site-section">
     <h2>Hello!</h2>
     <p>
-      I'm Faith Rider, currently a senior pursuing my bachelors in computer science at the University of Cincinnati.
+      I'm Faith Rider, currently a senior pursuing my bachelors in computer science at the University of Cincinnati. I'm graduating May of 2026.
     </p>
     <p>
-      My work blends structure with storytelling, technology with creativity, and human needs with real solutions. This portfolio explores those intersections.
+      My work blends structure with storytelling, technology with creativity, and human needs with targeted solutions. This portfolio explores those intersections.
     </p>
   </section>
   <section class="site-section">
@@ -32,21 +32,12 @@
   
   <section class="site-section site-section--alt">
     <h2>Info on this site</h2>
-    <p>My portfolio website is entirely coded by me! You can find the source code on my <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a>. It's been a years long process iterating on design and learning new technologies (currently using SvelteKit).</p>
+    <p>My portfolio website is coded by me! You can find the source code on my <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a>. It's been a years long process iterating on design and learning new technologies (currently using SvelteKit).</p>
     
     <p> I have more of my work hosted on my <a href="https://devpost.com/faithrider" style="color: #6B4F3A;">Devpost</a> (hackathons), <a href="https://www.linkedin.com/in/faith-rider/" style="color: #6B4F3A;">LinkedIn</a> (professional), and <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a> (other projects). Also linked in the footer!</p>
   </section>
 
 </section>
-<div class="contact-section">
-  <ContactBox />
-</div>
-<style>
-  .contact-section {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    display: flex;
-    justify-content: center;
-  }
-</style>
+<!-- ContactBox now handled in layout -->
+<!-- Removed unused contact-section styles; now handled in layout -->
 

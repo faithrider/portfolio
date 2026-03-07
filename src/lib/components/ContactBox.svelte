@@ -63,7 +63,7 @@
     margin: 3rem auto 0 auto;
     max-width: 1500px;
     min-width: 500px;
-    background: url('/thumbnails/london-plane-sunset-thumb.jpg') center/cover no-repeat;
+    background: #23232b;
     color: #f3f3f3;
     border-radius: 1rem;
     padding: 2rem 2.5rem 2rem 2.5rem;
@@ -71,19 +71,6 @@
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
-    position: relative;
-    overflow: hidden;
-  }
-  .contact-box::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(35,35,43,0.72);
-    z-index: 0;
-  }
-  .contact-box > * {
-    position: relative;
-    z-index: 1;
   }
   .contact-box h2 {
     margin: 0 0 0.5rem 0;

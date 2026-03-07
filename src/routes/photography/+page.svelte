@@ -68,9 +68,7 @@
   {/if}
   </section>
 
-  <div class="contact-section">
-    <ContactBox />
-  </div>
+  <!-- ContactBox now handled in layout -->
 
 {#if selectedPhoto}
   <div class="modal-backdrop" on:click={closeModal} on:keydown={(e) => e.key === 'Escape' && closeModal()} role="presentation">
@@ -186,13 +184,6 @@
   .close-button:hover {
     background-color: #f0f0f0;
     transform: rotate(90deg);
-  }
-
-  .contact-section {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    display: flex;
-    justify-content: center;
   }
 
   @media (max-width: 768px) {
