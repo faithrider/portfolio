@@ -45,5 +45,5 @@ The sun began its descent when we made our way to the Agios Nikolaos Castle area
 
 Watching a sunset while busy with life makes it seem to pass in the blink of an eye. But sitting there, despite hundreds of others nearby, time and space seemed to slow to a crawl. Clouds played hide-and-seek with the sun, but when it broke through, it was brilliant – a perfect sphere of orange and gold casting diamonds across the water. As it dipped below the horizon, it painted the clouds in its own image, leaving behind one of the most vibrant blue hours I'd ever seen. I knew the ancient Therans watched the same sunset, and I wondered what else never changed at all. A fitting farewell to an island that had shown us everything from ancient history to natural wonders in the span of a single day.
 
-<img src="/santorini-photo-with-brayton.png" alt="Santorini selfie with my brother" />
+<img src="/santorini-photo-with-brayton.png" alt="Santorini selfie with my brother" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
 </div>

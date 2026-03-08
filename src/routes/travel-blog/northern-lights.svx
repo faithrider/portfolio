@@ -1,5 +1,5 @@
 ---
-title: "Wandering Through Reykjavik"
+title: "Fire and Ice, Aurora Borealis"
 date: "2024-12-19"
 heroImage: "/aurora-faith.jpg"
 ---
@@ -8,7 +8,7 @@ heroImage: "/aurora-faith.jpg"
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Wandering Through Reykjavik" image="/aurora-faith.jpg">
+<Hero title="Fire and Ice, Aurora Borealis" image="/aurora-faith.jpg">
 	<p class="subtext">December 19, 2024 — Reykjavik, Iceland</p>
 </Hero>
 
@@ -19,5 +19,19 @@ heroImage: "/aurora-faith.jpg"
 
 <div class="article-content">
 
-Placeholder, coming soon!!
+The Northern Lights were on the itinerary twice. Once on day two, and once on day five as a backup. Iceland in December is volatile. The forecast had been stubbornly cloudy since before we'd even landed, and our guides had made sure we understood from the start: no guarantees. Day two came and went. Too overcast. We had trudged back to the hotel that night with the particular disappointment of something you knew was always a long shot.
+
+By the time Wednesday rolled around we'd had a full day already. The West Coast tour, waterfalls, a hot spring, hours winding through Iceland's terrain on the bus. We were tired in that good, heavy way that comes from being outside all day in cold air. Somewhere between the hot spring and the drive back to Reykjavík, the low grade tentative hope that had been quietly living in all of us through the week had started draining out. The city lights were getting closer. We had almost made peace with it.
+
+Half our group left the bus with Erla, our guide, despondent but happy enough to have seen glimpses of the lights earlier. Ivar offered to drop the rest of us off at the Sun Voyager on his way back, a kind five minute detour so we could try staking out the coast for the aurora. We thanked him, genuinely, and that felt like that. A nice way to end the night.
+
+Then, halfway there, the intercom crackled on.
+
+In all the hours and days we had spent on that bus, I could count on one hand the number of times Ivar had used it. So when his voice came through, calm and matter of fact, saying he had seen reports of a spotting nearby, the effect was immediate. The tiredness evaporated. Whatever quiet resignation had been settling over the bus lifted all at once, replaced by something that felt almost frantic, the kind of hope that arrives so suddenly it's almost indistinguishable from panic. He asked if we wanted him to take us. We jumped on it, thanking him in the way you do when you know, even in the moment, that something is more than it appears to be.
+
+He drove us near Grótta Lighthouse, a stretch of coastline well outside the city, open sky in every direction. Walking would have taken well over an hour. We would have missed the window entirely. Standing at the water's edge in the dark, that fact settled over me slowly, that we were only here because one person decided, quickly and without fanfare, that we should be. And there they were.
+
+We stayed for nearly 45 minutes, taking photos, standing still, just looking. Ivar waited on the bus the entire time, no rush, no signal that we were overstaying. We were the ones who eventually decided to leave, not wanting to keep him any later than we already had. It was close to 2AM. Our guide Erla had been like that all trip too, giving us extra time wherever she could, treating our experience like it mattered to her personally. But standing out there in the dark, in a place we only reached because people decided to go above and beyond for a group of students they'd just met; I think the gratitude honestly outweighed the magic of the lights themselves. A once in a lifetime trip, made that way by once in a lifetime people.
+
+<img src="/faith-northern_lights.jpg" alt="Me and the aurora borealis" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
 </div>
