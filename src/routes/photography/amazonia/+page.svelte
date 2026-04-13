@@ -199,13 +199,12 @@
         <!-- FIXME: Final words — the importance of water to Amazonas. The rivers
              are highways, food sources, ecosystems, and cultural anchors. What did
              seeing it up close change in how you understand the place? -->
-        Placeholder closing text. Talk about how important water is to Amazonas —
-        economically, ecologically, culturally. What did photographing this give you?
+        FIXME: Talk about how important water is to Amazonas: economically, ecologically, culturally.
       </p>
     </div>
     <p class="az-closing-note">
-      More photographs from this trip — including wildlife — can be found in the
-      <a href="/photography">main Photography section</a>.
+      More photographs from this trip (including wildlife) can be found in my main
+      <a href="/photography">Photography</a> section.
     </p>
   </section>
 
