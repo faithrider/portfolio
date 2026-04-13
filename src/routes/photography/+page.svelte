@@ -155,6 +155,11 @@
   }
 
   .trip-filter-outer {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 0.5rem 0;
+  }
+
   .trip-filter-container {
     display: flex;
     align-items: center;
