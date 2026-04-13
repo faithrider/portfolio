@@ -44,6 +44,13 @@
     <SectionHeader title="Photography" subtitle="A collection of moments from my travels and experiences. Click a photo to see a better view and the story behind it." />
   </div>
 
+  <div class="featured-project-outer">
+    <a href="/photography/amazonia" class="featured-project-link">
+      <span class="featured-label">Featured Project</span>
+      <span class="featured-title">Textures of Amazonia →</span>
+    </a>
+  </div>
+
   <div class="trip-filter-outer">
     <div class="trip-filter-container">
       <label for="trip-filter" class="trip-filter-label">Sort by place/trip:</label>
