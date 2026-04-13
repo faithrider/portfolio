@@ -112,6 +112,49 @@
     justify-content: center;
     margin: 1.5rem 0 0.5rem 0;
   }
+
+  .featured-project-outer {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .featured-project-link {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+    background: #2a2a32;
+    border: 1.5px solid #444;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .featured-project-link:hover {
+    background: #323239;
+    border-color: #666;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .featured-label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #888;
+    margin-bottom: 0.5rem;
+  }
+
+  .featured-title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f3f3f3;
+  }
+
+  .trip-filter-outer {
   .trip-filter-container {
     display: flex;
     align-items: center;

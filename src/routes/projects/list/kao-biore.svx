@@ -1,0 +1,8 @@
+---
+title: "Oribe"
+date: "Spring 2024"
+type: nis
+techStack: ["Corporate Project", "Innovation"]
+---
+
+A digital portfolio for the NIS program, showcasing research and leadership.

@@ -2,7 +2,10 @@
   import Card from '$lib/components/Card.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
   import ContactBox from '$lib/components/ContactBox.svelte';
+  import ProjectModal from '$lib/components/ProjectModal.svelte';
   import { projects } from '$lib/data/projects';
+
+  let selectedProject: any = null;
 
   // Category filtering
   let selectedCategory: string = 'All';
@@ -25,7 +28,21 @@
     nis: 'NIS Client',
     other: 'Other',
   };
+
+  function openModal(project: any) {
+    selectedProject = project;
+  }
+
+  function closeModal() {
+    selectedProject = null;
+  }
+
+  function handleKeydown(e: KeyboardEvent) {
+    if (e.key === 'Escape') closeModal();
+  }
 </script>
+
+<svelte:window on:keydown={handleKeydown} />
 
 <section class="site-content">
   <SectionHeader title="Projects" subtitle="Notable projects I've worked on." />
@@ -40,9 +57,9 @@
             <p class="featured-label">Featured Project</p>
             <h2 class="featured-title">{project.title}</h2>
             <p class="featured-excerpt">{project.excerpt}</p>
-            {#if project.link}
-              <a href={project.link} class="featured-link">View Project →</a>
-            {/if}
+            <button class="featured-link" on:click={() => openModal(project)}>
+              View Details →
+            </button>
           </div>
         </div>
       {/each}
@@ -68,21 +85,30 @@
   <div class="projects-grid">
     {#each filtered as project}
       <div class="project-card">
-        <Card title={project.title} excerpt={project.excerpt} href={project.link || '#'} />
-        {#if project.category === 'coding' && project.technologies.length > 0}
-          <div class="project-tags">
-            {#each project.technologies as tech}
-              <span class="tech-tag">{tech}</span>
-            {/each}
-          </div>
-        {/if}
-        {#if project.github}
-          <a href={project.github} class="github-link" title="View on GitHub">GitHub</a>
-        {/if}
+        <button class="card-content" on:click={() => openModal(project)}>
+          <h3 class="project-title">{project.title}</h3>
+          <p class="project-excerpt">{project.excerpt}</p>
+          {#if project.category === 'coding' && project.technologies.length > 0}
+            <div class="project-tags">
+              {#each project.technologies as tech}
+                <span class="tech-tag">{tech}</span>
+              {/each}
+            </div>
+          {/if}
+          <span class="expand-hint">View details →</span>
+        </button>
       </div>
     {/each}
   </div>
 </section>
+
+{#if selectedProject}
+  <div class="modal-backdrop" on:click={closeModal} on:keydown={(e) => e.key === 'Escape' && closeModal()} role="presentation">
+    <ProjectModal project={selectedProject}>
+      <button class="close-button" on:click={closeModal} aria-label="Close modal" slot="close">✕</button>
+    </ProjectModal>
+  </div>
+{/if}
 
 <style>
   .featured-section {
@@ -146,10 +172,14 @@
     padding: 0.75rem 1.5rem;
     background: white;
     color: #1f2937;
+    border: none;
     text-decoration: none;
     font-weight: 600;
     border-radius: 0.375rem;
     transition: opacity 0.3s;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
   }
 
   .featured-link:hover {
@@ -200,6 +230,49 @@
     position: relative;
   }
 
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.75rem;
+    background: white;
+    color: #1f2937;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+  }
+
+  .card-content:hover {
+    border-color: #1f2937;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    color: #1f2937;
+  }
+
+  .project-excerpt {
+    font-size: 0.95rem;
+    color: #6b7280;
+    margin: 0 0 1rem 0;
+    flex-grow: 1;
+  }
+
+  .expand-hint {
+    display: inline-block;
+    font-size: 0.875rem;
+    color: #3b82f6;
+    font-weight: 500;
+    margin-top: auto;
+  }
+
   .project-tags {
     display: flex;
     flex-wrap: wrap;
@@ -217,18 +290,44 @@
     border-radius: 0.25rem;
   }
 
-  .github-link {
-    display: inline-block;
-    font-size: 0.875rem;
-    margin-top: 0.5rem;
-    color: var(--accent-link, #3b82f6);
-    text-decoration: none;
-    transition: opacity 0.2s;
+  /* Modal Styles */
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 2rem;
+    box-sizing: border-box;
   }
 
-  .github-link:hover {
-    opacity: 0.7;
-    text-decoration: underline;
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #1f2937;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+    transition: all 0.2s ease;
+  }
+
+  .close-button:hover {
+    background-color: #111827;
+    transform: rotate(90deg);
   }
 
   @media (max-width: 640px) {

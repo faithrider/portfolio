@@ -1,0 +1,8 @@
+---
+title: "Hats4Cats"
+date: "Fall 2021"
+type: cs
+techStack: ["Python", "HTML/CSS"]
+---
+
+Give your feline friend a fun hat! An AI-powered app that takes preset hat graphics, and accurately places one on your cat's head!
