@@ -11,7 +11,7 @@
   let selectedCategory: string = 'All';
 
   // Extract unique categories
-  const categories = ['All', ...Array.from(new Set(projects.map((p) => p.category)))];
+  const categories: string[] = ['All', ...Array.from(new Set(projects.map((p) => p.category)))];
 
   // Featured projects (exclude from main grid)
   $: featured = projects.filter((p) => p.featured);

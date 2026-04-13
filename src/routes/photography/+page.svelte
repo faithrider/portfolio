@@ -10,7 +10,7 @@
   let selectedTrip: string = 'All';
 
   // Get unique trip names from photos
-  const tripOptions = ['All', ...Array.from(new Set(photos.map((p) => p.trip)))];
+  const tripOptions: string[] = ['All', ...Array.from(new Set(photos.map((p) => p.trip)))];
 
   function openModal(photo: Photo) {
     selectedPhoto = photo;
