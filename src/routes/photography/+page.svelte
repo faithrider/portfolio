@@ -86,25 +86,14 @@
 {/if}
 
 <style>
-  :global(body) {
-    margin: 0;
-    padding: 0;
-    background: #18181b;
-  }
-  .dark-mode {
-    background: #18181b;
-    color: #f3f3f3;
-  }
-  .site-content {
-    margin-top: 0;
-    padding-top: 0;
-  }
   .routes-photography {
     max-width: 100%;
     padding: 0;
     margin-top: 0;
     min-height: 100vh;
     padding-bottom: 3rem;
+    background: #18181b;
+    color: #f3f3f3;
   }
 
   .trip-filter-outer {
@@ -129,6 +118,7 @@
     border-radius: 0.75rem;
     text-decoration: none;
     transition: all 0.3s ease;
+    text-align: center;
   }
 
   .featured-project-link:hover {
