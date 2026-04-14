@@ -115,6 +115,7 @@
         </button>
         <div class="az-story-caption">
           <p class="az-story-caption-text">{photo.caption}</p>
+          <p class="az-story-date">{photo.date}</p>
           {#if photo.device}
             <p class="az-story-device">Taken on: {photo.device}</p>
           {/if}
@@ -150,6 +151,7 @@
         </button>
         <div class="az-story-caption">
           <p class="az-story-caption-text">{photo.caption}</p>
+          <p class="az-story-date">{photo.date}</p>
           {#if photo.device}
             <p class="az-story-device">Taken on: {photo.device}</p>
           {/if}
@@ -184,7 +186,8 @@
         </button>
         <div class="az-story-caption">
           <p class="az-story-caption-text">{photo.caption}</p>
-          {#if photo.device}
+          <p class="az-story-date">{photo.date}</p>
+          {#if photo.device }
             <p class="az-story-device">Taken on: {photo.device}</p>
           {/if}
         </div>
@@ -231,6 +234,7 @@
       />
       <div class="az-modal-info">
         <p class="az-modal-caption">{modalPhoto.caption}</p>
+        <p class="az-story-date">{modalPhoto.date}</p>
         {#if modalPhoto.device}
           <p class="az-modal-device">Taken on: {modalPhoto.device}</p>
         {/if}
@@ -462,6 +466,12 @@
     color: #b0c8dc;
     line-height: 1.8;
     margin: 0 0 0.75rem;
+  }
+
+  .az-story-date {
+    flex: 1;
+    min-width: 0;
+    color: #5a7a90;
   }
 
   .az-story-device {
