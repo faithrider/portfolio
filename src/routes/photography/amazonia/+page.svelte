@@ -199,10 +199,10 @@
   <section class="az-closing-section">
     <div class="az-closing-box">
       <p class="az-closing-text">
-        <!-- FIXME: Final words — the importance of water to Amazonas. The rivers
-             are highways, food sources, ecosystems, and cultural anchors. What did
-             seeing it up close change in how you understand the place? -->
-        FIXME: Talk about how important water is to Amazonas: economically, ecologically, culturally.
+        Water moves through every element of this landscape, shaping surfaces, structures, and patterns of life.
+      </p>
+      <p class="az-closing-text">
+        Its cycles leave visible traces, from sediment and staining to elevation and growth. Together, these responses form a record of continuous adaptation within a system defined by change.
       </p>
     </div>
     <p class="az-closing-note">
@@ -506,6 +506,10 @@
     color: #b8cfde;
     line-height: 1.85;
     margin: 0;
+  }
+
+  .az-closing-text + .az-closing-text {
+    margin-top: 1.25rem;
   }
 
   .az-closing-note {

@@ -56,10 +56,20 @@ export const weddingPhotos: AmazoniaPhoto[] = [
 
 // ── Section 2: The Rio Negro ─────────────────────────────────────────────────
 export const negroPhotos: AmazoniaPhoto[] = [
-  // FIXME: Replace with actual Rio Negro photo
-  { id: 'n1', image: '/amazonia/BRAZIL-rio-negro.jpg', caption: 'FIXME: Add caption.', device: 'Nikon Z5, 50-250mm', date: '8:08AM | 14 March 2026' },
-  // FIXME: Replace with actual Rio Negro photo
-  { id: 'n2', image: '/amazonia/BRAZIL-rio-negro.jpg', caption: 'FIXME: Add caption.', device: 'Nikon Z5, 50-250mm', date: '8:08AM | 14 March 2026' },
-  // FIXME: Replace with actual Rio Negro photo
-  { id: 'n3', image: '/amazonia/BRAZIL-rio-negro.jpg', caption: 'FIXME: Add caption.', device: 'Nikon Z5, 50-250mm', date: '8:08AM | 14 March 2026' },
+  { id: 'n1', image: '/amazonia/BRAZIL-NEGRO-bridgepillars.jpg', caption: 'Support pillars of the Rio Negro Bridge extend into the river, designed to withstand continuous flow and seasonal variation in water level. Their vertical form allows water to pass around them with limited obstruction, reducing pressure from current and debris in a channel where depth and volume fluctuate throughout the year.', device: 'Nikon Z5, 50-250mm', date: '2:54PM | 16 March 2026' },
+
+  { id: 'n2', image: '/amazonia/BRAZIL-NEGRO-boathull.jpg', caption: 'Numbers marked along the hull indicate depth and loading, showing how the vessel sits in the water under different conditions. In the Rio Negro, clearer water and lower sediment allow these measurements to be read more easily, providing a direct reference between water level and vessel displacement. On this boat, heavy use and rust is seen on the bottom numbers, suggesting how deep the vessel always sits, versus where it sometimes reaches.', device: 'Nikon Z5, 50-250mm', date: '2:55PM | 16 March 2026' },
+
+  { id: 'n3', image: '/amazonia/BRAZIL-NEGRO-houseonwater.jpg', caption: 'A structure sits directly atop the river, positioned to maintain access across changing water levels. Construction accounts for seasonal rise and fall, allowing continued use as the shoreline shifts. The relationship between built space and water remains flexible, adjusting with fluctuations rather than fixed to a single edge.', device: 'Nikon Z5, 50-250mm', date: '9:04AM | 17 March 2026' },
+
+  { id: 'n4', image: '/amazonia/BRAZIL-NEGRO-satellitestilts.jpg', caption: 'Buildings and other structures such as satellites are elevated on stilts, lifting living space and essentials above expected flood levels and rainy, muddy ground. During high-water periods, the river occupies the space below, while in lower conditions, the ground becomes accessible again. This vertical separation accommodates regular inundation without requiring relocation.', device: 'Nikon Z5, 50-250mm', date: '3:37PM | 17 March 2026' },
+
+  { id: 'n5', image: '/amazonia/BRAZIL-NEGRO-treeroots.jpg', caption: 'Tree roots extend above the soil surface, adapted to saturated and periodically flooded conditions. In areas where water levels fluctuate, root systems stabilize the tree while allowing gas exchange in low-oxygen soils. Their exposure reflects both erosion and long-term adjustment to a shifting river edge.', device: 'Nikon Z5, 50-250mm', date: '3:39PM | 17 March 2026' },
+
+  { id: 'n6', image: '/amazonia/BRAZIL-NEGRO-leafrain.jpg', caption: 'Rainfall collects and moves across leaf surfaces before returning to the ground or water below. In this environment, precipitation contributes directly to river levels and local saturation, reinforcing the connection between atmospheric input and surface water systems.', device: 'Nikon Z5, 50-250mm', date: '4:19PM | 18 March 2026' },
+
+  { id: 'n7', image: '/amazonia/BRAZIL-NEGRO-raindrops.jpg', caption: 'Raindrops disturb the surface of the river, briefly interrupting reflection and creating expanding circular patterns. These small-scale interactions mark the continuous input of water from above, contributing to the broader hydrological cycle that sustains river flow.', device: 'Nikon Z5, 50-250mm', date: '8:58AM | 19 March 2026' },
+
+
 ];
+
