@@ -1,0 +1,123 @@
+---
+title: "Vis in the Wild"
+slug: "vis-in-the-wild"
+date: "2026-04-15"
+---
+
+<script>
+  import Hero from '$lib/components/Hero.svelte';
+</script>
+
+<Hero title="Vis in the Wild" image="/amazonia/BRAZIL-SOLIMOES-porch.jpg">
+  <p class="subtext">A data visualization project</p>
+</Hero>
+
+<section class="blog-caption">
+  <span class="caption-date">2024</span>
+  <span class="caption-place">Data Visualization</span>
+</section>
+
+<div class="article-content">
+
+<div class="project-link">
+  <a href="https://informationisbeautiful.net/visualizations/a24-movie-browser/" target="_blank" rel="noopener noreferrer">
+    View the visualization →
+  </a>
+</div>
+
+A24 has a filmography that is critically recognized, stylistically distinct, and broad enough that patterns can emerge when you start comparing across genre, year, and reception. This critique examines an interactive visualization that maps that catalog across critic and audience scores, worldwide gross, and release year. The goal is to assess how well the design supports exploration, where the interaction choices hold up, and where they get in the way.
+
+
+### Purpose
+The visualization serves as a browsable index of A24's film catalog, designed to surface comparisons across genre, release year, critic scores, audience scores, and gross revenue. The goal is primarily about giving users the tools to find their own.
+
+### The Data
+Data was pulled from Rotten Tomatoes, A24films.com, IMDB, and The Numbers, and was last updated in November 2024. It covers the studio's output with metrics spanning critical reception, audience response, and box office performance.
+
+### Intended Audience
+The primary audience is A24 fans and general movie enthusiasts. That said, the tool is accessible enough to be useful for anyone casually looking for something to watch, with enough depth for people who want to dig further.
+
+### What You Can Do With It
+The visualization supports filtering in several ways. Users can set thresholds for critic and audience scores, so if you only want to see films above a 70% critic score, that's a quick filter to apply.
+<img src="/projects/visinthewild/critic-filter.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+You can also narrow by release year or isolate a single genre, useful if you want to see only A24's romance output, for example.
+<img src="/projects/visinthewild/year-filter.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+<img src="/projects/visinthewild/genre-filter.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+Hovering over individual film tiles surfaces more detail, which is especially helpful for smaller tiles that are harder to read at a glance.
+<img src="/projects/visinthewild/more-info.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+
+### Design and Interaction
+The genre color coding is one of the stronger visual choices. Bold, distinct colors make it easy to scan the grid and get a quick read on the catalog's composition. The key appears at both the top and bottom of the page, which is a thoughtful call given how long the visualization runs. The problem is that in the tall middle section where most of the browsing happens, neither key is visible, and scrolling to check a color becomes a minor but recurring interruption.
+
+<img src="/projects/visinthewild/top-genres.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+<img src="/projects/visinthewild/bottom-genres.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+The search function is well executed. It searches across both titles and descriptions, which makes it more useful than a title-only search would be.
+
+So for example, searching "Mid" will bring up various options.
+<img src="/projects/visinthewild/search-bar.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+You can select something that includes "mid" in the title, like Midsommar:
+<img src="/projects/visinthewild/search-title.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+Or, it could be something with "mid" in the description, which could be 20th Century Women:
+<img src="/projects/visinthewild/search-desc.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+
+One area that could be stronger is the color palette itself. Several genres share shades that are too close together, with three blues being the clearest example. When colors are too similar, the key stops functioning as a quick reference and becomes something users have to actively consult rather than intuitively read. The bold colors of most of the palette, are hurt by the few that are too similar.
+
+### Limitations
+Genre filtering is all-or-nothing. Users can view all genres at once or filter down to one, but there is no way to select a subset. If you want to compare A24's horror and thriller output side by side, the tool cannot do that. Additionally, the tile size is fixed to represent worldwide gross in millions, with no option to switch that encoding to a different metric. For a catalog where critical reception and box office often tell very different stories, the lack of options is apparent.
+
+### Concluding thoughts
+The visualization succeeds at its core purpose: making a large catalog browsable in a way that rewards both casual use and closer inspection. The filtering system is genuinely useful, and the visual structure supports the kind of quick, comparative reading that film data calls for. The weaknesses are real but targeted, and addressing the color differentiation and key visibility issues would meaningfully improve an otherwise well-considered piece of work.
+
+### Full view of site:
+<img src="/projects/visinthewild/full-vis.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+
+</div>
+
+<style>
+  .blog-caption {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #6b7280;
+    font-size: 0.95rem;
+  }
+
+  .caption-date,
+  .caption-place {
+    font-weight: 500;
+  }
+
+  .article-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: #1f2937;
+  }
+
+  :global(.article-content h2) {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 2rem 0 1rem 0;
+    color: #1f2937;
+  }
+
+  :global(.article-content p) {
+    margin-bottom: 1rem;
+  }
+
+  :global(.article-content img) {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+  }
+</style>

@@ -33,6 +33,11 @@
     {/if}
 
     <div class="project-links">
+      {#if project.hasDetailPage}
+        <a href={`/projects/${project.slug}`} class="project-btn primary">
+          Read Full Writeup →
+        </a>
+      {/if}
       {#if project.link}
         <a href={project.link} class="project-btn primary" target="_blank" rel="noopener noreferrer">
           View Project

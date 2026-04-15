@@ -1,8 +1,0 @@
----
-title: "Kao Innovation Challenge - Biore"
-date: "Fall 2023"
-type: other
-techStack: ["Innovation"]
----
-
-A design contest creating Valentine's day designs for Biore nose strips.

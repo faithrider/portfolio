@@ -11,6 +11,7 @@ export type Project = {
   link?: string;
   github?: string;
   featured?: boolean;
+  hasDetailPage?: boolean;
 };
 
 export const projects: Project[] = [
@@ -113,5 +114,16 @@ export const projects: Project[] = [
     technologies: ['Canva', 'Midjourney', 'DALL-E', 'ChatGPT'],
     category: 'nis',
     date: '2023-11-04',
+  },
+  {
+    id: 'vis-in-the-wild',
+    slug: 'vis-in-the-wild',
+    title: 'Vis in the Wild',
+    excerpt: 'A design critique of an interactive data visualization exploring A24\'s film catalog: genre, scores, gross revenue, and a variety of other metrics that allow a user to explore the films of A24.',
+    description: 'This project critiques an interactive visualization of A24\'s filmography, built from data pulled across Rotten Tomatoes, IMDB, A24films.com, and The Numbers. The tool lets users filter by genre, release year, and critic or audience scores, with individual film details available on hover. The write-up looks at where the design works, where it creates friction, and what the limitations reveal about the difficulty of making film data genuinely explorable.',
+    technologies: ['Data Visualization', 'Design'],
+    category: 'other',
+    date: '2026-04-15',
+    hasDetailPage: true,
   },
 ];
