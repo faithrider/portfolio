@@ -13,7 +13,7 @@ date: "2026-04-15"
 </Hero>
 
 <section class="blog-caption">
-  <span class="caption-date">2024</span>
+  <span class="caption-date">2026</span>
   <span class="caption-place">Data Visualization</span>
 </section>
 
@@ -27,6 +27,8 @@ date: "2026-04-15"
 
 A24 has a filmography that is critically recognized, stylistically distinct, and broad enough that patterns can emerge when you start comparing across genre, year, and reception. This critique examines an interactive visualization that maps that catalog across critic and audience scores, worldwide gross, and release year. The goal is to assess how well the design supports exploration, where the interaction choices hold up, and where they get in the way.
 
+### Full view of site:
+<img src="/projects/visinthewild/full-vis.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
 
 ### Purpose
 The visualization serves as a browsable index of A24's film catalog, designed to surface comparisons across genre, release year, critic scores, audience scores, and gross revenue. The goal is primarily about giving users the tools to find their own.
@@ -74,9 +76,6 @@ Genre filtering is all-or-nothing. Users can view all genres at once or filter d
 
 ### Concluding thoughts
 The visualization succeeds at its core purpose: making a large catalog browsable in a way that rewards both casual use and closer inspection. The filtering system is genuinely useful, and the visual structure supports the kind of quick, comparative reading that film data calls for. The weaknesses are real but targeted, and addressing the color differentiation and key visibility issues would meaningfully improve an otherwise well-considered piece of work.
-
-### Full view of site:
-<img src="/projects/visinthewild/full-vis.png" alt="description" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
 
 </div>
 
