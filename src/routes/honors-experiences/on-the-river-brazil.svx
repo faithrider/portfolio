@@ -13,5 +13,5 @@ heroImage: "/coming-soon.jpg"
 
 <div class="article-content">
 
-Placeholder for my Brazil study tour in March 2026!
+Placeholder for my Brazil study tour in March 2026!!
 </div>
