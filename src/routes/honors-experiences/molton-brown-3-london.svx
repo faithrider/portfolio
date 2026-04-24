@@ -1,0 +1,23 @@
+---
+title: "Molton Brown x NIS: User Journey Project"
+date: "2026-04-10"
+heroImage: "/coming-soon.jpg"
+---
+
+<script>
+	import Hero from '$lib/components/Hero.svelte';
+</script>
+
+<Hero title="Field Research in London" image="/coming-soon.jpg">
+</Hero>
+
+<div class="article-content">
+
+The London trip was one week. The project was months.
+
+We started prep in early January 2026 and gave our final presentation to the client on April 10th. The work itself was centered on mapping user journeys for Molton Brown's hotel partners, thinking through how a guest encounters the brand and what it would take to make that encounter meaningful enough to turn them into a customer. After a midpoint presentation in late February we shifted direction a bit, moving away from distinct linear paths and toward something more flexible, a framework built around key moments in the guest experience with options branching out from each one rather than a single prescribed route.
+
+What I found most valuable wasn't the project itself, though I'm proud of what we delivered. It was the team dynamic. Half of us were senior NIS members finishing our last year. The other half were brand new to the program. I've always enjoyed working with newer cohorts, and having that mix meant we had both experience and fresh energy pulling in the same direction. The client responded really well to what we produced.
+
+This was my third project with Molton Brown through NIS. Each one has built on the last. This time around I was one of the more senior members, which meant taking on more of a leadership role than I had before. It was a good reminder that experience is only useful if you actually put it to work for the people around you.
+</div>

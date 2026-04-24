@@ -13,5 +13,11 @@ heroImage: "/coming-soon.jpg"
 
 <div class="article-content">
 
-Placeholder for my upcoming field research in London, January 2026!
+We almost didn't make it out of the country. A massive snowstorm was sweeping across the US the last week of January 2026, grounding flights by the hour. Ours cleared by what felt like minutes.
+
+The trip was field research for an NIS project with Molton Brown, a London based fragrance and beauty brand. We were looking at how hotel guests, staying in Molton Brown partnered hotels, could be converted into customers. To do that, we spent the week essentially acting as luxury consumers; staying near Trafalgar Square, visiting their Covent Garden store and Regent Street flagship, talking to sales associates, and eventually spending a full day at their corporate headquarters interviewing key stakeholders. We were college students, and we knew it. I tried to carry myself accordingly, but I won't pretend it wasn't surreal.
+
+We fit other things in too. A handful of us went to St. Paul's Cathedral early one morning for their 7AM service. None of us are Church of England, and none of us had a particular reason to go, but it was one of the most beautiful spaces I've ever been in. There's something about sitting in a place that grand, that quietly, with people you've spent a week working alongside, that sticks with you. I also managed to get a small group to see Phantom of the Opera on the West End, and we went thrifting in Richmond on our last day.
+
+What I took away from the week was less about the research itself and more about what it felt like to be in rooms I wasn't sure I belonged in, and to show up anyway. That's a feeling I want to keep leaning into.
 </div>
