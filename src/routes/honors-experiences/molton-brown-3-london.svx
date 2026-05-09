@@ -1,14 +1,14 @@
 ---
 title: "Molton Brown x NIS: User Journey Project"
 date: "2026-04-10"
-heroImage: "/coming-soon.jpg"
+heroImage: "/london-mindthegap.jpeg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Molton Brown x NIS: User Journey Project" image="/coming-soon.jpg">
+<Hero title="Molton Brown x NIS: User Journey Project" image="/london-mindthegap.jpeg">
 </Hero>
 
 <div class="article-content">
