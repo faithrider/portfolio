@@ -1,17 +1,32 @@
 ---
 title: "On the River, in Brazil"
 date: "2026-03-21"
-heroImage: "/coming-soon.jpg"
+heroImage: "/brazil-heron-flying.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="On the River, in Brazil (upcoming)" image="/coming-soon.jpg">
+<Hero title="On the River, in Brazil" image="/brazil-heron-flying.jpg">
 </Hero>
 
 <div class="article-content">
 
-Placeholder for my Brazil study tour in March 2026!!
+I almost talked myself out of this one. I had Iceland in my head, telling myself I'd already gotten my unforgettable trip, that adding Brazil on top of a semester that already included skiing, skydiving, and graduating was financially irresponsible at best. I signed up anyway. I live by "why not?" sometimes to my detriment, but mostly not.
+
+The course centered on Brazil's legislative landscape, environmental situation, and facets of its ecology, with a trip to the Amazon region in March 2026. Each student chose an individual project to develop around the trip. I chose mid- to close- range photography, specifically a photo essay exploring how life along the Amazon has adapted to the river itself. The result was Textures of Amazonia, a series documenting water, material, and adaptation along the Rio Solimões and Rio Negro. I had bought my camera not long before we left and was honestly still learning the controls for the first few days.
+
+The trip itself was unlike anything I expected. I've never been a birdwatcher, but sitting in a canoe for hours with classmates and two of the boat's crew, Isaqueu and Walder, who had an almost supernatural ability to locate and point out wildlife, made a convert out of me. We'd pull up to the Iracema (the boat we lived on for a week) last and consider it a point of pride, because it meant we'd taken our time. The flowers stopped me too, some of my favorite photos ended up being those caught with morning dew still on them. I spent a lot of hours tanning like a chestnut in an oven, indulging in my own thoughts in a way the rat race rarely allows.
+
+There's one moment I keep coming back to. We were returning from an afternoon in the canoes, weaving around river bends in the heat, when we crested a turn and Isaqueu revved the engine. Suddenly we were in open water. The sunset was pouring orange into still indigo water, and I went completely quiet. My hand was grazing the surface as we slowed to a stop in the middle of the river. We sat there for a handful of minutes, no animals to find, little to say. It was one of those moments you recognize as ephemeral even while you're in it, knowing no camera can fully capture how it made you feel. That was the introspection Brazil kept offering me.
+
+Having a dedicated camera and a specific lens through which to look made me slower and more deliberate through all of it. I noticed things I might have walked past otherwise; the mud line on a tree trunk marking a previous flood, the rust on the lower hull numbers of a boat that never quite rises, the way rubber tires get lashed to vessel sides as buffers. My oldest frustration with visual art has always been the gap between what I see and what ends up in front of me. Brazil closed that gap more than anything I've tried before.
+
+I came back with a project I'm proud of, a list of birds to identify with my brother, and a clearer sense of what I want to do with a camera. Iceland taught me that a photo can make you feel quiet. Brazil taught me how to actually take one.
+
+<img src="/brazil-hawk.jpg" alt="A hawk in Brazil" />
+<img src="/brazil-three-birds.jpg" alt="Near the Rio Negro bridge, three birds on the water" />
+<img src="/brazil-bug-on-fabric.jpg" alt="A bug on a shirt" />
+<img src="/brazil-stars.jpg" alt="Stars on a mostly clear night" />
 </div>

@@ -126,4 +126,14 @@ export const projects: Project[] = [
     date: '2026-04-15',
     hasDetailPage: true,
   },
+  {
+    id: 'textures-of-amazonia',
+    slug: 'textures-of-amazonia',
+    title: 'Textures of Amazonia',
+    excerpt: 'A photo essay exploring the adaptation of people and nature to the Amazon River, from the sediment-laden Solimões to the dark waters of the Rio Negro.',
+    technologies: ['Photography', 'Visual Storytelling'],
+    category: 'other',
+    date: '2025-12-01',
+    link: '/photography/amazonia',
+  },
 ];

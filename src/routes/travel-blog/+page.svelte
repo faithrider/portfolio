@@ -38,7 +38,7 @@
 <section class="site-content">
   <SectionHeader title="Travel Blog" subtitle="A growing collection of trip write-ups. Click a banner to read the full post." />
 
-  <div class="flex flex-col gap-8">
+  <div class="grid grid-cols-2 gap-8">
     {#each posts as post}
       <Banner
         title={post.title}

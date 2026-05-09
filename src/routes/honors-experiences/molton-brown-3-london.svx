@@ -8,7 +8,7 @@ heroImage: "/coming-soon.jpg"
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Field Research in London" image="/coming-soon.jpg">
+<Hero title="Molton Brown x NIS: User Journey Project" image="/coming-soon.jpg">
 </Hero>
 
 <div class="article-content">
