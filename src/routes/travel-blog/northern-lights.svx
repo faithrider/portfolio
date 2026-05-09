@@ -1,14 +1,14 @@
 ---
 title: "Fire and Ice, Aurora Borealis"
 date: "2024-12-19"
-heroImage: "/aurora-faith.jpg"
+heroImage: "/photography/iceland/aurora-faith.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Fire and Ice, Aurora Borealis" image="/aurora-faith.jpg">
+<Hero title="Fire and Ice, Aurora Borealis" image="/photography/iceland/aurora-faith.jpg">
 	<p class="subtext">December 19, 2024 — Reykjavik, Iceland</p>
 </Hero>
 
@@ -33,5 +33,5 @@ He drove us near Grótta Lighthouse, a stretch of coastline well outside the cit
 
 We stayed for nearly 45 minutes, taking photos, standing still, just looking. Ivar waited on the bus the entire time, no rush, no signal that we were overstaying. We were the ones who eventually decided to leave, not wanting to keep him any later than we already had. It was close to 2AM. Our guide Erla had been like that all trip too, giving us extra time wherever she could, treating our experience like it mattered to her personally. But standing out there in the dark, in a place we only reached because people decided to go above and beyond for a group of students they'd just met; I think the gratitude honestly outweighed the magic of the lights themselves. A once in a lifetime trip, made that way by once in a lifetime people.
 
-<img src="/faith-northern_lights.jpg" alt="Me and the aurora borealis" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+<img src="/photography/iceland/faith-northern_lights.jpg" alt="Me and the aurora borealis" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
 </div>

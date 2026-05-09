@@ -94,7 +94,7 @@
   ═════════════════════════════════════════════════════════════════════ -->
 
   <section class="az-chapter" bind:this={chapterEls[0]}>
-    <div class="az-chapter-bg-inner" style="background: url('/amazonia/BRAZIL-solimoes.jpg') center/cover no-repeat;"></div>
+    <div class="az-chapter-bg-inner" style="background: url('/photography/brazil/BRAZIL-solimoes.jpg') center/cover no-repeat;"></div>
     <div class="az-chapter-overlay"></div>
     <div class="az-chapter-content">
       <p class="az-chapter-label">Chapter I</p>
@@ -129,7 +129,7 @@
   ═════════════════════════════════════════════════════════════════════ -->
 
   <section class="az-chapter" bind:this={chapterEls[1]}>
-    <div class="az-chapter-bg-inner" style="background: url('/amazonia/BRAZIL-bridge-water.jpg') center bottom/cover no-repeat;"></div>
+    <div class="az-chapter-bg-inner" style="background: url('/photography/brazil/BRAZIL-bridge-water.jpg') center bottom/cover no-repeat;"></div>
     <div class="az-chapter-overlay"></div>
     <div class="az-chapter-content">
       <p class="az-chapter-label">Interlude</p>
@@ -165,7 +165,7 @@
   ═════════════════════════════════════════════════════════════════════ -->
 
   <section class="az-chapter" bind:this={chapterEls[2]}>
-    <div class="az-chapter-bg-inner" style="background: url('/amazonia/BRAZIL-rio-negro.jpg') center top/cover no-repeat;"></div>
+    <div class="az-chapter-bg-inner" style="background: url('/photography/brazil/BRAZIL-rio-negro.jpg') center top/cover no-repeat;"></div>
     <div class="az-chapter-overlay"></div>
     <div class="az-chapter-content">
       <p class="az-chapter-label">Chapter II</p>
@@ -271,7 +271,7 @@
   .az-hero-bg {
     position: absolute;
     inset: -20%;
-    background: url('/amazonia/BRAZIL-bridge-water.jpg') center/cover no-repeat;
+    background: url('/photography/brazil/BRAZIL-bridge-water.jpg') center/cover no-repeat;
     will-change: transform;
   }
 

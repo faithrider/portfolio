@@ -219,7 +219,7 @@ figure {
 
 .hero-bg {
   @apply absolute top-0 left-0 w-full h-full bg-cover bg-center;
-  background-image: url('/overlooking-stars.jpg');
+  background-image: url('/photography/iceland/iceland-overlooking-stars.jpg');
   transform: translateZ(0);
   will-change: transform;
 }

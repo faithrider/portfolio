@@ -1,7 +1,6 @@
 <script lang="ts">
   // Use the shared Hero component
   import Hero from '$lib/components/Hero.svelte';
-  import ContactBox from '$lib/components/ContactBox.svelte';
 </script>
 
 <!-- Single hero instance -->
@@ -12,10 +11,10 @@
   <section class="site-section">
     <h2>Hello!</h2>
     <p>
-      I'm Faith Rider, currently a senior pursuing my bachelors in computer science at the University of Cincinnati. I'm graduating May of 2026.
+      I'm Faith Rider, a 2026 computer science graduate from the University of Cincinnati.
     </p>
     <p>
-      My work blends structure with storytelling, technology with creativity, and human needs with targeted solutions. This portfolio explores those intersections.
+      I have a passion for building thoughtful, creative projects that blend technology and design. I love learning new tools and techniques, and am always excited to take on new challenges. This site is a portfolio of my work, my travels, and some of my favorite things. Feel free to explore around!
     </p>
   </section>
   <section class="site-section">
@@ -27,17 +26,15 @@
         Recently, I've gotten into photography, so all my wallpapers now are pictures I've taken! I have a collection of some of my favorite shots in the <a href="/photography" style="color: #6B4F3A;">Photography</a> section of this site.
     </p>
 
-    <img src="/faith-london-chinatown.jpg" alt="faith in london's chinatown" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+    <img src="/photography/london/faith-london-chinatown.jpg" alt="faith in london's chinatown" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
   </section>
   
   <section class="site-section site-section--alt">
     <h2>Info on this site</h2>
-    <p>My portfolio website is coded by me! You can find the source code on my <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a>. It's been a years long process iterating on design and learning new technologies (currently using SvelteKit).</p>
+    <p>My portfolio website is coded by me! You can find the source code on my <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a>. It's been a years long process iterating on design and learning new technologies.</p>
     
     <p> I have more of my work hosted on my <a href="https://devpost.com/faithrider" style="color: #6B4F3A;">Devpost</a> (hackathons), <a href="https://www.linkedin.com/in/faith-rider/" style="color: #6B4F3A;">LinkedIn</a> (professional), and <a href="https://github.com/faithrider" style="color: #6B4F3A;">GitHub</a> (other projects). Also linked in the footer!</p>
   </section>
 
 </section>
 <!-- ContactBox now handled in layout -->
-<!-- Removed unused contact-section styles; now handled in layout -->
-

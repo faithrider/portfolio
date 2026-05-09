@@ -44,10 +44,9 @@
   <h1 class="site-title"><a href="/">faith rider</a></h1>
   <ul class="nav-links">
     <li><a href="/">Home</a></li>
+    <li><a href="/university-experience">University Experience</a></li>
     <li><a href="/projects">Projects</a></li>
-    <li><a href="/year-in-review">Year in Review</a></li>
     <li><a href="/travel-blog">Travel Blog</a></li>
-    <li><a href="/honors-experiences">Honors</a></li>
     <li><a href="/photography">Photography</a></li>
   </ul>
 </nav>

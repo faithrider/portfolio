@@ -1,14 +1,14 @@
 ---
 title: "Quiet at Spring Grove Cemetery"
 date: "2024-09-08"
-heroImage: "/spring-grove.jpg"
+heroImage: "/photography/cincinnati/spring-grove.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Quiet at Spring Grove Cemetery" image="/spring-grove.jpg">
+<Hero title="Quiet at Spring Grove Cemetery" image="/photography/cincinnati/spring-grove.jpg">
 	<p class="subtext">September 8, 2024 — Cincinnati, OH</p>
 </Hero>
 
@@ -45,5 +45,5 @@ As we prepared to leave, the sounds of nearby streets slowly intruded - a remind
 
 The Cincinnati Chamber of Commerce once quoted a visiting artist who said that Spring Grove was "a park more magnificent than any that exists for the living." Standing there, watching light filter through ancient trees onto carefully placed monuments, I understood exactly what they meant.
 
-<img src="/burnet-spring-grove.jpg" alt="The Burnet Mausoleum, dating back to 1865" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+<img src="/photography/cincinnati/burnet-spring-grove.jpg" alt="The Burnet Mausoleum, dating back to 1865" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
 </div>

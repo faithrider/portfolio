@@ -1,14 +1,14 @@
 ---
 title: "Brooklyn Bridge and Manhattan Skyline"
 date: "2023-11-09"
-heroImage: "/brooklyn-bridge.jpg"
+heroImage: "/photography/nyc/brooklyn-bridge.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Brooklyn Bridge and Manhattan Skyline" image="/brooklyn-bridge.jpg" />
+<Hero title="Brooklyn Bridge and Manhattan Skyline" image="/photography/nyc/brooklyn-bridge.jpg" />
 
 <section class="blog-caption">
   <span class="caption-date">November 09, 2023</span>
@@ -33,5 +33,5 @@ Winding our way off the bridge in Brooklyn, Dumbo's architecture was brick and b
 
 We could have easily taken the subway over, but being able to see another angle of the bridge made walking more than worth it. Our pictures ranged from artistic to silly, partially affected by our exhaustion from nearing the end of a long day. We took the A train back our hotel, and—knowing we had to wake up in a handful of hours—fell asleep before our heads hit the pillow.
 
-<img src="/thegang-nyc-2023.jpg" alt="The gang on the NYC subway" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
+<img src="/photography/nyc/thegang-nyc-2023.jpg" alt="The gang on the NYC subway" style="width: 100%; max-width: 1000px; margin-top: 1rem; border-radius: 8px;" />
 </div>

@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href="/iceland-blacksandbeach2.jpg" />
+	<link rel="icon" href="/photography/iceland/iceland-blacksandbeach2.jpg" />
 	<title>faith rider</title>
 </svelte:head>
 

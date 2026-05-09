@@ -21,7 +21,7 @@ export const projects: Project[] = [
     title: 'My Personal Portfolio',
     excerpt: 'My personal website, showcasing both my professional and academic work, and personal hobbiest photography.',
     description: 'FIXME: Detailed description of the project, challenges solved, results achieved',
-    image: '/greece-ferry-water.jpg',
+    image: '/photography/greece/greece-ferry-water.jpg',
     technologies: ['SvelteKit', 'TypeScript', 'Tailwind CSS'],
     category: 'coding',
     date: '2024-01-01',
