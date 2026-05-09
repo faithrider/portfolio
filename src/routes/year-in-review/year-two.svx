@@ -1,14 +1,14 @@
 ---
 title: "Year 2: A Brush with (Responsibility)"
 date: "2023-05-05"
-heroImage: "/coming-soon.jpg"
+heroImage: "/santorini-photo-with-brayton.png"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Year 2: A Brush with (Responsibility)" image="/coming-soon.jpg">
+<Hero title="Year 2: A Brush with (Responsibility)" image="/santorini-photo-with-brayton.png">
 </Hero>
 
 <div class="article-content">

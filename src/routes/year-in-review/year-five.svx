@@ -1,19 +1,29 @@
-// change into .svx when far enough into the year
 
 ---
 title: "Year 5: A Quiet Kind of Arrival"
 date: "2026-05-05"
-heroImage: "/coming-soon.jpg"
+heroImage: "/cincy-skydiving.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Year 5: A Quiet Kind of Arrival" image="/coming-soon.jpg">
+<Hero title="Year 5: A Quiet Kind of Arrival" image="/cincy-skydiving.jpg">
 </Hero>
 
 <div class="article-content">
 
-Soon to come, May 2026!
+Senior year was the one I'd been building toward, and somehow also the one I least wanted to end.
+
+For the first time in my degree, I had breathing room. The major requirements were mostly behind me, and I had credits to fill however I wanted. So I asked myself what I actually wanted to try. The answer, it turned out, was a lot. I took snow sports and learned to ski and snowboard from scratch. I did yoga on Monday mornings with my friends. I took a class that brought me to the Amazon in March, camera in hand, spending hours in a canoe on the Rio Negro with people who wanted to learn every bird by sight. I jumped out of a plane, a Category A skydive, where instead of being strapped to an instructor I had one on each side of me, and then at 5,500 feet it was just me piloting a parachute to the ground. In between all of that I went to London for my scholarship program, planned and executed a trip to Toronto with my sister for her 21st birthday, and Columbus to see my brother more times than I can count. I started playing Elden Ring, and got whooped by the difficulty. I bought a camera and figured out what I could actually do with it. I built this portfolio into something I'm genuinely proud of.
+
+None of that was on a checklist. It was just saying yes, repeatedly, to things that sounded interesting or fun or a little scary. Which is, I think, what I came here to learn how to do.
+
+The bittersweet part is real though. I am very used to a rhythm of brutal busy periods followed by stretches of breathing room. What comes next is a constant hum, always a little busy, never quite the same peaks and valleys. That's a different kind of life, and I'm still getting used to the idea of it. More than that, I did this transitionary period with people I love, and we are about to scatter to different corners of the world. I'm excited for all of us; it doesn't make it less hard.
+
+But I'm also, genuinely, so ready. Senior year taught me that I don't need a guranteed why, or a logical reason to try. I just need to want it badly enough to jump from the plane.
+
+<img src="/cincy-skydiving-plane.jpg" alt="faith skydiving" />
+<img src="/quartet-graduation.jpg" alt="faith graduation" />
 </div>
