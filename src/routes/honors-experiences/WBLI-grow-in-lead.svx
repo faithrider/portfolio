@@ -1,14 +1,14 @@
 ---
 title: "WBLI: Women's Growing in Leadership"
 date: "2024-05-05"
-heroImage: "/gilPHOTO.jpg"
+heroImage: "/photography/cincinnati/gilPHOTO.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="WBLI: Women's Growing in Leadership" image="/gilPHOTO.jpg">
+<Hero title="WBLI: Women's Growing in Leadership" image="/photography/cincinnati/gilPHOTO.jpg">
 </Hero>
 
 <div class="article-content">

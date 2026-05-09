@@ -1,14 +1,14 @@
 ---
 title: "UC Ethics Center Internship"
 date: "2025-12-05"
-heroImage: "/ethicscenter-tables.jpg"
+heroImage: "/photography/cincninati/ethicscenter-tables.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="UC Ethics Center Internship" image="/ethicscenter-tables.jpg">
+<Hero title="UC Ethics Center Internship" image="/photography/cincninati/ethicscenter-tables.jpg">
 </Hero>
 
 <div class="article-content">

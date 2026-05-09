@@ -251,10 +251,6 @@
     min-height: 100vh;
   }
 
-  :global(body),
-  :global(.site-layout) {
-    background: #0f1923 !important;
-  }
 
   /* ── Hero ──────────────────────────────────────────────────────────────── */
   .az-hero {

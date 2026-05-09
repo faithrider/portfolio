@@ -1,14 +1,14 @@
 ---
 title: "Year 1: Introductions and Other Disasters"
 date: "2022-05-05"
-heroImage: "/cincy-faith-animal-shelter.jpg"
+heroImage: "/photography/cincinnati/cincy-faith-animal-shelter.jpg"
 ---
 
 <script>
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<Hero title="Year 1: Introductions and Other Disasters" image="/cincy-faith-animal-shelter.jpg">
+<Hero title="Year 1: Introductions and Other Disasters" image="/photography/cincinnati/cincy-faith-animal-shelter.jpg">
 </Hero>
 
 <div class="article-content">
